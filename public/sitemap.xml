@@ -5,181 +5,181 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://openjobs.genedai.me/</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=Engineering</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=Healthcare</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=Sales</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=Finance</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=Management</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=Marketing</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=HR</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?category=Operations</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/rss.xml</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=inside-higher-ed</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=deloitte</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=alleviation-enterprise-llc</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=medical-city-dallas</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=dsi-groups</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=commonspirit-health</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=adventhealth</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=advance-auto-parts</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=angels-of-care-pediatric-home-health</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?company=orlando-health</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=the-u.s.</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=integrated-finance-managed-services-at-ey</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=full-time-at-erlanger</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=general-interest-application-at-avantstay</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=bariatric-surgery-at-jobot</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=carnegie-mellon-university</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=0275-at-greenspoon-marder-llp</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=school-year-2026-2027-%28anticipated-vacancies%29-at-spring-branch-isd</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=douglasville%2C-ga-at-wellstar-health-system</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://openjobs.genedai.me/?location=canton/philadelphia/forest/carthage-at-ergon-inc.</loc>
-    <lastmod>2026-01-16</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
