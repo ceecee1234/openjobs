@@ -256,7 +256,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <h2 align="center">Latest Job Openings</h2>
 
 <p align="center">
-  <em>Updated January 19, 2026 · Showing 25 of 25+ jobs</em>
+  <em>Updated January 20, 2026 · Showing 25 of 25+ jobs</em>
 </p>
 
 | Job Title | Company | Apply |
@@ -298,5 +298,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with Python + GitHub Actions · Updated January 19, 2026
+  Made with Python + GitHub Actions · Updated January 20, 2026
 </p>
