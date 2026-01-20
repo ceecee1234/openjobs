@@ -64,61 +64,121 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=adventhealth</loc>
+    <loc>https://digidai.github.io/openjobs/?company=deloitte</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=cvs-health</loc>
+    <loc>https://digidai.github.io/openjobs/?company=veyo</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=varda-space-industries</loc>
+    <loc>https://digidai.github.io/openjobs/?company=forge-marketing</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=project-brains</loc>
+    <loc>https://digidai.github.io/openjobs/?company=beth-israel-lahey-health</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=state-of-south-carolina</loc>
+    <loc>https://digidai.github.io/openjobs/?company=inside-higher-ed</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=aspen-skiing-company</loc>
+    <loc>https://digidai.github.io/openjobs/?company=community-care-physicians</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=zt-systems</loc>
+    <loc>https://digidai.github.io/openjobs/?company=cellular-sales</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=steven-douglas-corp.</loc>
+    <loc>https://digidai.github.io/openjobs/?company=accentcare</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=wellby-financial</loc>
+    <loc>https://digidai.github.io/openjobs/?company=medstar-health</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=lifestance-health</loc>
+    <loc>https://digidai.github.io/openjobs/?company=jacobs</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=strategic-partnership-solutions-at-deloitte</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=the-u.s.</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=mathematics-at-inside-higher-ed</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=3pm-shift---woonsocket%2C-ri-at-nirvana-healthcare-management-services</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=indiana-at-cisco</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=full-time-8-hour-days-%28non-exempt%29-%28non-union%29-at-keck-medicine-of-usc</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=full-time-10-hour-days-%28non-exempt%29-%28non-union%29-at-keck-medicine-of-usc</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=jc-0453-at-chicago-nannies%2C-inc.</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=pedi-gi/neuro---nights-at-baycare-health-system</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=full-time%2C-night-shift-23866-at-rush-university-medical-center</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
