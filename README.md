@@ -256,11 +256,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <h2 align="center">Latest Job Openings</h2>
 
 <p align="center">
-  <em>Updated January 27, 2026 · Showing 17 of 17+ jobs</em>
+  <em>Updated January 28, 2026 · Showing 17 of 17+ jobs</em>
 </p>
 
 | Job Title | Company | Apply |
 |-----------|---------|:-----:|
+| Clinical RN Director | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/f/cf/cdbfd20f03eb342877ff91b76567e.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> United Surgical Partners International, Inc | [View](https://www.openjobs-ai.com/jobs/clinical-rn-director-colorado-springs-co-128758191226880001) |
+| GNSS Hardware Systems Engineer | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/f3/870be274f6c49b3e31a0c6728957f.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Apple | [View](https://www.openjobs-ai.com/jobs/gnss-hardware-systems-engineer-san-diego-ca-128758191226880002) |
+| Manufacturing Associate (USP or DSP) - Relocation Available | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/3/65/fb204b39c91d2170c81fe872443ff.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Global Life Science Hub | [View](https://www.openjobs-ai.com/jobs/manufacturing-associate-usp-or-dsp-relocation-available-new-jersey-united-states-128758191226880003) |
+| Registered Nurse, Home Health Visits | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/e/25/fdf5c5d48111aedbf1d70ee1845f9.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> BAYADA Home Health Care | [View](https://www.openjobs-ai.com/jobs/registered-nurse-home-health-visits-york-pa-128758191226880004) |
 | Account Manager Pharmacy | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/3/b3/1da1985ce05807ec319a8c136023e.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Guardian Pharmacy | [View](https://www.openjobs-ai.com/jobs/account-manager-pharmacy-randolph-nj-128758191226880005) |
 | Customer Service Representative | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/30/b06b9907198d68f229aeb3e8430cf.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Insight Global | [View](https://www.openjobs-ai.com/jobs/customer-service-representative-phoenix-az-128758191226880006) |
 | Risk Engineer | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/e/7b/a6621c260b225e06301b9b73047f6.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Loss Control | [View](https://www.openjobs-ai.com/jobs/risk-engineer-loss-control-remote-morristown-nj-128758191226880007) |
@@ -274,10 +278,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Family Law Attorney (Relocation Required, Assistance Provided) | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/0/43/3a022692132c21baf700c0f2f4fce.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> The Virga Law Firm, P.A. | [View](https://www.openjobs-ai.com/jobs/family-law-attorney-relocation-required-assistance-provided-alabama-united-states-128758644211712000) |
 | MOVER INSTALLATION TECHNICIAN | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/a1/8502fa8686f2aa1b6d9a8ce5ac682.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Moffitt Cancer Center | [View](https://www.openjobs-ai.com/jobs/mover-installation-technician-tampa-fl-128758644211712001) |
 | Registered Nurse - Emergency Department Weekends | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/4/fd/87e099ca4630b42393bb3f9f936c9.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Trinity Health | [View](https://www.openjobs-ai.com/jobs/registered-nurse-emergency-department-weekends-mishawaka-in-128758191226880000) |
-| Clinical RN Director | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/f/cf/cdbfd20f03eb342877ff91b76567e.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> United Surgical Partners International, Inc | [View](https://www.openjobs-ai.com/jobs/clinical-rn-director-colorado-springs-co-128758191226880001) |
-| GNSS Hardware Systems Engineer | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/f3/870be274f6c49b3e31a0c6728957f.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Apple | [View](https://www.openjobs-ai.com/jobs/gnss-hardware-systems-engineer-san-diego-ca-128758191226880002) |
-| Manufacturing Associate (USP or DSP) - Relocation Available | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/3/65/fb204b39c91d2170c81fe872443ff.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Global Life Science Hub | [View](https://www.openjobs-ai.com/jobs/manufacturing-associate-usp-or-dsp-relocation-available-new-jersey-united-states-128758191226880003) |
-| Registered Nurse, Home Health Visits | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/e/25/fdf5c5d48111aedbf1d70ee1845f9.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> BAYADA Home Health Care | [View](https://www.openjobs-ai.com/jobs/registered-nurse-home-health-visits-york-pa-128758191226880004) |
 
 <p align="center">
   <em>...and 0 more jobs</em>
@@ -290,5 +290,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with Python + GitHub Actions · Updated January 27, 2026
+  Made with Python + GitHub Actions · Updated January 28, 2026
 </p>
