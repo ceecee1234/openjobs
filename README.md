@@ -256,19 +256,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <h2 align="center">Latest Job Openings</h2>
 
 <p align="center">
-  <em>Updated January 31, 2026 · Showing 16 of 16+ jobs</em>
+  <em>Updated February 01, 2026 · Showing 16 of 16+ jobs</em>
 </p>
 
 | Job Title | Company | Apply |
 |-----------|---------|:-----:|
-| Slalom Flex (Project Based) – Technical Engineer (Pega) | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/8/c7/354aadd3c672fa95db63164a005c4.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Slalom | [View](https://www.openjobs-ai.com/jobs/slalom-flex-project-based-technical-engineer-pega-charlotte-nc-130208870957056002) |
-| Lead Mental Health Technician - FT Evenings | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/a7/c28b47b6e94b9817a5110623ee6e5.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Valle Vista Health System | [View](https://www.openjobs-ai.com/jobs/lead-mental-health-technician-ft-evenings-greenwood-in-130208870957056003) |
-| Lab Aide, Nights | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/9/bd/b4672e469e4db56887581519a441a.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Flowers Hospital | [View](https://www.openjobs-ai.com/jobs/lab-aide-nights-dothan-al-130208954843136000) |
-| Director, Planning & Design | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/b/20/39483a833a7b4a863871884486c66.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> The Gideons International | [View](https://www.openjobs-ai.com/jobs/director-planning-design-nashville-tn-130208954843136001) |
-| Principal Solution Architect | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/44/653a024bda5fe1ace260bad67aff9.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> TiDB, powered by PingCAP | [View](https://www.openjobs-ai.com/jobs/principal-solution-architect-united-states-130208954843136002) |
-| MEAT/ASST DEPT LEADER | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/0/28/c42add1f96f9e2717cfc8ce23c30d.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Kroger Mountain View Foods | [View](https://www.openjobs-ai.com/jobs/meatasst-dept-leader-st-matthews-ky-130208954843136003) |
-| Senior Machinist | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e0/c8fee693d9bb359e6bf930e8bce47.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> B&H Tool Company | [View](https://www.openjobs-ai.com/jobs/senior-machinist-san-marcos-ca-130209034534912000) |
-| Staff Infrastructure Engineer | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/79/63364489cc8fbeb2c6a96d2974200.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> TwelveLabs | [View](https://www.openjobs-ai.com/jobs/staff-infrastructure-engineer-united-states-130209231667200000) |
 | Collision Estimator | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/3/fd/86d398e2d5a90df1bbd83a125db6f.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Crash Champions | [View](https://www.openjobs-ai.com/jobs/collision-estimator-san-leandro-ca-130208728350720004) |
 | Respiratory Therapist Intermediate | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/5/65/0dcec15e5638733ac5026977fb15f.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Michigan Medicine | [View](https://www.openjobs-ai.com/jobs/respiratory-therapist-intermediate-ann-arbor-mi-130208728350720005) |
 | Part Time (30 Hours) Associate Banker, Foothill Blvd Branch, Hayward, CA | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/e/80/20f3cd27af58eca9c48426bfb1c4f.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> JPMorganChase | [View](https://www.openjobs-ai.com/jobs/part-time-30-hours-associate-banker-foothill-blvd-branch-hayward-ca-hayward-ca-130208728350720006) |
@@ -277,6 +269,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Engineering Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/c/aa/b446a056cb936310ce29b0471efbe.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> SAIC | [View](https://www.openjobs-ai.com/jobs/engineering-technician-middletown-ri-130208728350720009) |
 | Exchanger | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/0e/08b1c8f53dfe659363854cd39eb3e.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> BMTRUST | [View](https://www.openjobs-ai.com/jobs/exchanger-united-states-130208870957056000) |
 | Senior Bid Manager | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/8/e4/73ed366937e9b98d7c1d6f81103d6.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> NTT Global Data Centers | [View](https://www.openjobs-ai.com/jobs/senior-bid-manager-united-states-130208870957056001) |
+| Slalom Flex (Project Based) – Technical Engineer (Pega) | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/8/c7/354aadd3c672fa95db63164a005c4.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Slalom | [View](https://www.openjobs-ai.com/jobs/slalom-flex-project-based-technical-engineer-pega-charlotte-nc-130208870957056002) |
+| Lead Mental Health Technician - FT Evenings | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/a7/c28b47b6e94b9817a5110623ee6e5.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Valle Vista Health System | [View](https://www.openjobs-ai.com/jobs/lead-mental-health-technician-ft-evenings-greenwood-in-130208870957056003) |
+| Lab Aide, Nights | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/9/bd/b4672e469e4db56887581519a441a.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Flowers Hospital | [View](https://www.openjobs-ai.com/jobs/lab-aide-nights-dothan-al-130208954843136000) |
+| Director, Planning & Design | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/b/20/39483a833a7b4a863871884486c66.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> The Gideons International | [View](https://www.openjobs-ai.com/jobs/director-planning-design-nashville-tn-130208954843136001) |
+| Principal Solution Architect | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/44/653a024bda5fe1ace260bad67aff9.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> TiDB, powered by PingCAP | [View](https://www.openjobs-ai.com/jobs/principal-solution-architect-united-states-130208954843136002) |
+| MEAT/ASST DEPT LEADER | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/0/28/c42add1f96f9e2717cfc8ce23c30d.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Kroger Mountain View Foods | [View](https://www.openjobs-ai.com/jobs/meatasst-dept-leader-st-matthews-ky-130208954843136003) |
+| Senior Machinist | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e0/c8fee693d9bb359e6bf930e8bce47.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> B&H Tool Company | [View](https://www.openjobs-ai.com/jobs/senior-machinist-san-marcos-ca-130209034534912000) |
+| Staff Infrastructure Engineer | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/79/63364489cc8fbeb2c6a96d2974200.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> TwelveLabs | [View](https://www.openjobs-ai.com/jobs/staff-infrastructure-engineer-united-states-130209231667200000) |
 
 <p align="center">
   <em>...and 0 more jobs</em>
@@ -289,5 +289,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with Python + GitHub Actions · Updated January 31, 2026
+  Made with Python + GitHub Actions · Updated February 01, 2026
 </p>
