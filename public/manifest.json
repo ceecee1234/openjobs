@@ -1,7 +1,7 @@
 {
   "name": "OpenJobs - Job Search",
   "short_name": "OpenJobs",
-  "description": "Browse 738+ job openings from 500+ companies. Free job aggregator updated every 6 hours.",
+  "description": "Browse 690+ job openings from 549+ companies. Free job aggregator updated every 6 hours.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
