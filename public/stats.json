@@ -1,55 +1,48 @@
 {
-  "total_jobs": 174,
-  "total_companies": 139,
+  "total_jobs": 53,
+  "total_companies": 42,
   "top_companies": {
-    "Host Healthcare, Inc.": 6,
-    "Chubb": 5,
-    "Deloitte": 4,
-    "CVS Health": 4,
-    "Speechify": 4,
-    "Ciena Healthcare": 3,
-    "Malone Healthcare Solutions": 3,
-    "Kaiser Permanente": 2,
-    "Stripe": 2,
-    "Continental Tide Defense Systems": 2
+    "Inside Higher Ed": 6,
+    "Children's Healthcare of Atlanta": 3,
+    "Addus HomeCare": 2,
+    "The Faulkner Organization": 2,
+    "DLB Associates": 2,
+    "Imploy": 2,
+    "Patient First": 1,
+    "Menasha Corporation": 1,
+    "Phillips Foods": 1,
+    "Northfield Savings Bank VT": 1
   },
   "categories": {
-    "Engineering": 16,
-    "Healthcare": 47,
-    "Sales": 18,
+    "Engineering": 6,
+    "Healthcare": 10,
+    "Sales": 4,
     "Finance": 3,
-    "Management": 21,
+    "Management": 5,
     "Marketing": 1,
     "HR": 0,
     "Operations": 0,
-    "Other": 68
+    "Other": 24
   },
   "top_locations": {
-    "the U.S.": 2,
-    "Days - BHMC - 22600 at Broward Health": 1,
-    "2026 School Year at Richland School District 2": 1,
-    "Urgent Care - Florence at McLeod Health": 1,
-    "Per Diem 8 Hour Evening Shift (Union) at Keck Medicine of USC": 1,
-    "Ambulatory Surgery - FT  M-F  Evenings  11a-7p at Trinity Health": 1,
-    "Analyst / Associate at Morgan Stanley": 1,
-    "Central Alabama": 1,
-    "Marco Island": 1
+    "Camden, NJ at Virtua Health": 1,
+    "Senior Associate at JPMorganChase": 1
   },
-  "updated_at": "2026-02-19T01:18:58.176868+00:00",
+  "updated_at": "2026-02-19T06:49:40.228620+00:00",
   "data_quality": {
-    "jobs_with_location": 10,
-    "jobs_with_logo": 174,
-    "location_coverage": 0.0575,
+    "jobs_with_location": 2,
+    "jobs_with_logo": 53,
+    "location_coverage": 0.0377,
     "logo_coverage": 1.0,
     "parse_stats": {
-      "total_elements": 174,
-      "successful": 174,
+      "total_elements": 53,
+      "successful": 53,
       "skipped_no_caption": 0,
       "skipped_no_url": 0,
       "parse_failures": 0,
-      "with_location": 10,
-      "without_location": 164,
-      "location_coverage": 0.0575
+      "with_location": 2,
+      "without_location": 51,
+      "location_coverage": 0.0377
     },
     "parse_success_rate": 1.0
   }
