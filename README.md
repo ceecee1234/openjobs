@@ -256,11 +256,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <h2 align="center">Latest Job Openings</h2>
 
 <p align="center">
-  <em>Updated February 20, 2026 · Showing 34 of 34+ jobs</em>
+  <em>Updated February 21, 2026 · Showing 34 of 34+ jobs</em>
 </p>
 
 | Job Title | Company | Apply |
 |-----------|---------|:-----:|
+| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e1/f4357a9bf0f3643b7bb5652854889.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> CVS Health | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-romney-wv-137454057160704028) |
+| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e1/f4357a9bf0f3643b7bb5652854889.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> CVS Health | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-lady-lake-fl-137454057160704029) |
+| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e1/f4357a9bf0f3643b7bb5652854889.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> CVS Health | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-plaistow-nh-137454057160704030) |
+| Regional Vice President, Northeast | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/9/c1/c5c743568859910124fcc14e3aae5.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Burns & Wilcox | [View](https://www.openjobs-ai.com/jobs/regional-vice-president-northeast-new-york-ny-137454057160704031) |
 | Controller | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/6/f6/2321ee3c547898217eb951338d250.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> LHH | [View](https://www.openjobs-ai.com/jobs/controller-orange-county-ca-137454057160704032) |
 | HVAC Service Apprentice | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/b/55/19c84726e13d17029a8bbde4a30da.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Lennox | [View](https://www.openjobs-ai.com/jobs/hvac-service-apprentice-greenville-sc-137454057160704033) |
 | Clinical Analyst I | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/9e/2d14606fb2fce33f9bf98975ab7be.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Memorial Healthcare | [View](https://www.openjobs-ai.com/jobs/clinical-analyst-i-owosso-mi-137454057160704034) |
@@ -291,10 +295,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Assistant Clinical Supervisor 2 PT | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/c/13/f16e46dd5cce426f24ff119cbbc5b.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> 360 Behavioral Health | [View](https://www.openjobs-ai.com/jobs/assistant-clinical-supervisor-2-pt-riverside-ca-137454057160704025) |
 | Community Sales Director | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/b4/6ba3f252215271eafbb6fec1f65fe.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Brightview Senior Living | [View](https://www.openjobs-ai.com/jobs/community-sales-director-east-brunswick-nj-137454057160704026) |
 | Regulatory Affairs Associate I | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/e/27/03255005facca7b78033ac6dd79bc.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Teva Pharmaceuticals | [View](https://www.openjobs-ai.com/jobs/regulatory-affairs-associate-i-west-chester-pa-137454057160704027) |
-| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e1/f4357a9bf0f3643b7bb5652854889.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> CVS Health | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-romney-wv-137454057160704028) |
-| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e1/f4357a9bf0f3643b7bb5652854889.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> CVS Health | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-lady-lake-fl-137454057160704029) |
-| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/e1/f4357a9bf0f3643b7bb5652854889.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> CVS Health | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-plaistow-nh-137454057160704030) |
-| Regional Vice President, Northeast | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/9/c1/c5c743568859910124fcc14e3aae5.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Burns & Wilcox | [View](https://www.openjobs-ai.com/jobs/regional-vice-president-northeast-new-york-ny-137454057160704031) |
 
 <p align="center">
   <em>...and 0 more jobs</em>
@@ -307,5 +307,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with Python + GitHub Actions · Updated February 20, 2026
+  Made with Python + GitHub Actions · Updated February 21, 2026
 </p>
