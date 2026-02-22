@@ -1,56 +1,47 @@
 {
-  "total_jobs": 154,
-  "total_companies": 116,
+  "total_jobs": 37,
+  "total_companies": 27,
   "top_companies": {
-    "Allied Universal": 12,
-    "Varsity Tutors, a Nerdy Company": 10,
-    "EY": 5,
-    "PwC": 4,
-    "CVS Health": 4,
-    "ArborMetrics Solutions, LLC": 2,
-    "TeachMe.To": 2,
-    "Jobot": 2,
-    "Novant Health": 2,
-    "Wayne Farms": 2
+    "State of Oklahoma": 4,
+    "IQVIA": 3,
+    "Google": 3,
+    "Cognizant": 2,
+    "Accenture": 2,
+    "Definiti LLC": 2,
+    "The Arc San Francisco": 1,
+    "Suncrest Hospice": 1,
+    "Elios Talent": 1,
+    "Thermo Fisher Scientific": 1
   },
   "categories": {
-    "Engineering": 16,
-    "Healthcare": 24,
-    "Sales": 8,
-    "Finance": 2,
-    "Management": 23,
-    "Marketing": 0,
+    "Engineering": 3,
+    "Healthcare": 9,
+    "Sales": 2,
+    "Finance": 0,
+    "Management": 6,
+    "Marketing": 1,
     "HR": 0,
     "Operations": 1,
-    "Other": 80
+    "Other": 15
   },
   "top_locations": {
-    "the U.S.": 2,
-    "3rd shift at TDIndustries, Inc.": 1,
-    "FT - 1st Shift at Huntsville Hospital": 1,
-    "Registered Tutor at Varsity Tutors, a Nerdy Company": 1,
-    "Columbia at Prisma Health": 1,
-    "Part-time .5 at Sky Lakes Medical Center": 1,
-    "SCHULTE | VALDES | MURMAN | TONELLI": 1,
-    "Second Shift at Allied Universal": 1,
-    "PRN at Conduit Health Partners": 1,
-    "Erie, PA at Allegheny Health Network": 1
+    "San Francisco at SHINING 3D": 1
   },
-  "updated_at": "2026-02-22T01:18:25.600229+00:00",
+  "updated_at": "2026-02-22T06:36:23.049783+00:00",
   "data_quality": {
-    "jobs_with_location": 12,
-    "jobs_with_logo": 154,
-    "location_coverage": 0.0779,
+    "jobs_with_location": 1,
+    "jobs_with_logo": 37,
+    "location_coverage": 0.027,
     "logo_coverage": 1.0,
     "parse_stats": {
-      "total_elements": 154,
-      "successful": 154,
+      "total_elements": 37,
+      "successful": 37,
       "skipped_no_caption": 0,
       "skipped_no_url": 0,
       "parse_failures": 0,
-      "with_location": 12,
-      "without_location": 142,
-      "location_coverage": 0.0779
+      "with_location": 1,
+      "without_location": 36,
+      "location_coverage": 0.027
     },
     "parse_success_rate": 1.0
   }
