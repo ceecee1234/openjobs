@@ -64,79 +64,121 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=varsity-tutors%2C-a-nerdy-company</loc>
+    <loc>https://digidai.github.io/openjobs/?company=abs-kids</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=one-medical</loc>
+    <loc>https://digidai.github.io/openjobs/?company=firstcash</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=allied-universal</loc>
+    <loc>https://digidai.github.io/openjobs/?company=jobot</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=bentley-systems</loc>
+    <loc>https://digidai.github.io/openjobs/?company=lockheed-martin</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=sevita</loc>
+    <loc>https://digidai.github.io/openjobs/?company=cvs-health</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=camunda</loc>
+    <loc>https://digidai.github.io/openjobs/?company=medica</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=catholic-charities-of-the-diocese-of-rochester</loc>
+    <loc>https://digidai.github.io/openjobs/?company=advance-auto-parts</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=three-oaks-assisted-living-and-memory-care</loc>
+    <loc>https://digidai.github.io/openjobs/?company=pnc</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=multicare-health-system</loc>
+    <loc>https://digidai.github.io/openjobs/?company=mount-sinai-medical-center</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=ars-pharmaceuticals%2C-inc.</loc>
+    <loc>https://digidai.github.io/openjobs/?company=kia-veterans-technician-apprenticeship-program-%28vtap%29</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=shopify-platinum-partner</loc>
+    <loc>https://digidai.github.io/openjobs/?location=new-jersey-%26-pa</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=varies---flexible-at-wellstar-health-system</loc>
+    <loc>https://digidai.github.io/openjobs/?location=strategic-transformation-%26-operational-acceleration-at-verizon</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=atlas-network-at-stand-together</loc>
+    <loc>https://digidai.github.io/openjobs/?location=multiple-locations---central%2C-pa-at-gohealth-urgent-care</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=chicagoland</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=all-shifts-at-futurecare-associates%2C-inc.</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=knoxville-at-healthstar/cps</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=newberry-at-wellspan-health</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=prn-at-parkridge-valley</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=prn-at-enhabit-home-health-%26-hospice</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?location=a1fvx000002e2ghyaq-at-vivian-health</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
