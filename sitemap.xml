@@ -64,13 +64,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=talkiatry</loc>
-    <lastmod>2026-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://digidai.github.io/openjobs/?company=jacobs</loc>
+    <loc>https://digidai.github.io/openjobs/?company=inside-higher-ed</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -82,7 +76,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=virtua-health</loc>
+    <loc>https://digidai.github.io/openjobs/?company=canonical</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?company=cgs-federal-%28contact-government-services%29</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://digidai.github.io/openjobs/?company=commonspirit-health</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -94,31 +100,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=ues</loc>
+    <loc>https://digidai.github.io/openjobs/?company=cvs-health</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=piedmont</loc>
+    <loc>https://digidai.github.io/openjobs/?company=jacobs</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=help-at-home</loc>
+    <loc>https://digidai.github.io/openjobs/?company=northside-hospital</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?company=vertiv</loc>
-    <lastmod>2026-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://digidai.github.io/openjobs/?company=northrop-grumman</loc>
+    <loc>https://digidai.github.io/openjobs/?company=comparion-insurance-agency</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -130,55 +130,55 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=prn-at-enhabit-home-health-%26-hospice</loc>
+    <loc>https://digidai.github.io/openjobs/?location=healthcare</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=field-fixed-at-amazon</loc>
+    <loc>https://digidai.github.io/openjobs/?location=abundant-life-for-seniors</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=aba-therapy-for-autism</loc>
+    <loc>https://digidai.github.io/openjobs/?location=day-at-nuvance-health</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=poly-at-microsoft</loc>
+    <loc>https://digidai.github.io/openjobs/?location=recreation-division-at-ogden-city-government</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=midatlantic-employers%E2%80%99-association</loc>
+    <loc>https://digidai.github.io/openjobs/?location=981034-at-vivian-health</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=thirty-six-hours-a-week-at-mitchell-county-health-dept</loc>
+    <loc>https://digidai.github.io/openjobs/?location=hampton-roads-at-branscome</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=in-home-care</loc>
+    <loc>https://digidai.github.io/openjobs/?location=kelsey-seybold---memorial-villages-at-optum</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=evenings-at-trinity-health</loc>
+    <loc>https://digidai.github.io/openjobs/?location=prn-at-norman-regional-health-system</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://digidai.github.io/openjobs/?location=wise-at-truist</loc>
+    <loc>https://digidai.github.io/openjobs/?location=nationwide-staffing-%26-executive-search</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
