@@ -64,25 +64,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=dentrust-optimized-care-solutions</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?company=jobgether</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?company=pwc</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://openjobs.genedai.me/?company=inside-higher-ed</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?company=deloitte</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -94,19 +82,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=kimbrell-agency</loc>
+    <loc>https://openjobs.genedai.me/?company=cvs-health</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=kaiser-permanente</loc>
+    <loc>https://openjobs.genedai.me/?company=u.s.-bank</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=east-palestine-elementary-school</loc>
+    <loc>https://openjobs.genedai.me/?company=domino%27s</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -118,13 +106,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=verizon</loc>
+    <loc>https://openjobs.genedai.me/?company=insurance-office-of-america</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=healthcare-staffing</loc>
+    <loc>https://openjobs.genedai.me/?company=capital-one</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?company=ambercare</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -136,49 +130,55 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=usa-at-fullstack</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?location=senior-associate-at-pwc</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?location=hybrid-at-arbella-insurance-group</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?location=newborn---%242%2C426-per-week-at-travel-nurses%2C-inc.</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?location=west-county-women%27s-healthcare-at-st.-luke%27s-hospital</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?location=spanish-required-at-bank-of-america</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://openjobs.genedai.me/?location=aba-therapy-for-autism</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=%242%2C128-per-week-at-pluto-healthcare</loc>
+    <loc>https://openjobs.genedai.me/?location=an-addus-homecare-company</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?location=per-visit---home-health-at-frontpoint-health</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?location=vice-president-at-jpmorganchase</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?location=dana-point%2C-ca-at-jpmorganchase</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?location=%28fri-mon%29-at-zenni-optical</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?location=nights---adults-at-riverside-health</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?location=ts/sci---quantico%2C-va-at-global-dimensions%2C-llc</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/?location=r10221791-at-northrop-grumman</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
