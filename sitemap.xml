@@ -5,181 +5,181 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://digidai.github.io/openjobs/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=Engineering</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=Healthcare</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=Sales</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=Finance</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=Management</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=Marketing</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=HR</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?category=Operations</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/rss.xml</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=pwc</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=kpmg-us</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=the-western-and-southern-life-insurance-company</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=aveanna-healthcare</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=ascension</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=wsp</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=tufco%2C-lp</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=hackensack-meridian-health</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=catholic-health</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?company=adventhealth</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=the-u.s.</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=greater-orlando-at-sazerac-company</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=prn---st.-vincent%27s-at-good-samaritan</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=los-angeles-at-otter</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=prn-at-the-christ-hospital-health-network</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=healthcare</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=bhg</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=full-time/days-at-mercy</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=per-diem---days-at-concord-hospital-health-system</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://digidai.github.io/openjobs/?location=medina-%281538%29-at-arc-glow</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
