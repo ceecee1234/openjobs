@@ -1,56 +1,36 @@
 {
-  "total_jobs": 174,
-  "total_companies": 151,
+  "total_jobs": 1,
+  "total_companies": 1,
   "top_companies": {
-    "micro1": 4,
-    "Taskify": 4,
-    "VariaCode": 3,
-    "Parkview Health": 3,
-    "SoFi": 3,
-    "Inside Higher Ed": 3,
-    "Rochester Regional Health": 2,
-    "Stantec": 2,
-    "LaTeam Partners": 2,
-    "Ann & Robert H. Lurie Children's Hospital of Chicago": 2
+    "Entravision": 1
   },
   "categories": {
-    "Engineering": 25,
-    "Healthcare": 35,
-    "Sales": 11,
-    "Finance": 7,
-    "Management": 22,
-    "Marketing": 1,
+    "Engineering": 0,
+    "Healthcare": 0,
+    "Sales": 0,
+    "Finance": 0,
+    "Management": 0,
+    "Marketing": 0,
     "HR": 0,
-    "Operations": 1,
-    "Other": 72
+    "Operations": 0,
+    "Other": 1
   },
-  "top_locations": {
-    "It Staff Augmentation": 1,
-    "Talent & Advisory": 1,
-    "Blue Bell at Social Fire Media": 1,
-    "PRN at Enhabit Home Health & Hospice": 1,
-    "Nurse at Absolute Health Care": 1,
-    "Shred at Lactalis American Group": 1,
-    "NCH": 1,
-    "The Perinatal Center at Bon Secours": 1,
-    "Elgin": 1,
-    "TTI": 1
-  },
-  "updated_at": "2026-03-21T01:12:06.332529+00:00",
+  "top_locations": {},
+  "updated_at": "2026-03-21T06:32:04.330860+00:00",
   "data_quality": {
-    "jobs_with_location": 10,
-    "jobs_with_logo": 174,
-    "location_coverage": 0.0575,
+    "jobs_with_location": 0,
+    "jobs_with_logo": 1,
+    "location_coverage": 0.0,
     "logo_coverage": 1.0,
     "parse_stats": {
-      "total_elements": 174,
-      "successful": 174,
+      "total_elements": 1,
+      "successful": 1,
       "skipped_no_caption": 0,
       "skipped_no_url": 0,
       "parse_failures": 0,
-      "with_location": 10,
-      "without_location": 164,
-      "location_coverage": 0.0575
+      "with_location": 0,
+      "without_location": 1,
+      "location_coverage": 0.0
     },
     "parse_success_rate": 1.0
   }
