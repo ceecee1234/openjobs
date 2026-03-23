@@ -256,16 +256,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <h2 align="center">Latest Job Openings</h2>
 
 <p align="center">
-  <em>Updated March 22, 2026 · Showing 13 of 13+ jobs</em>
+  <em>Updated March 23, 2026 · Showing 13 of 13+ jobs</em>
 </p>
 
 | Job Title | Company | Apply |
 |-----------|---------|:-----:|
-| Sr. Accountant | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/8/00/8704179c264f440745630669fc4b7.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> PharMerica | [View](https://www.openjobs-ai.com/jobs/sr-accountant-englewood-co-148328696250368003) |
-| Senior Mechanical Design Engineer | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/3/ae/85e54968035b31152074fb3287883.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Space Kinetic Corp. | [View](https://www.openjobs-ai.com/jobs/senior-mechanical-design-engineer-el-segundo-ca-148328696250368004) |
-| Senior ML Data Scientist - Marketplace, Apple Ads | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/f3/870be274f6c49b3e31a0c6728957f.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Apple | [View](https://www.openjobs-ai.com/jobs/senior-ml-data-scientist-marketplace-apple-ads-cupertino-ca-148328868216832000) |
-| Office Manager / Staff Officer Level 4 | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/a/6b/6946da8eedbe1ea455f7b896085f2.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> TULK | [View](https://www.openjobs-ai.com/jobs/office-manager-staff-officer-level-4-springfield-va-148328276819968026) |
-| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/2/f5/9625ceca353dceb62b07273ab49a5.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Jushi Holdings Inc. | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-woodbridge-va-148328553644032000) |
 | Production Engineering Manager | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/6/48/67f07f0d35a72a916f04064349dd2.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> FUJIFILM Electronic Materials U.S.A., Inc. | [View](https://www.openjobs-ai.com/jobs/production-engineering-manager-pueblo-co-148328553644032001) |
 | Respiratory Therapist Registered- RT Cardiac ICU | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/6/13/c6bdff8c631da6e8715dd406ee339.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Nationwide Children's Hospital | [View](https://www.openjobs-ai.com/jobs/respiratory-therapist-registered-rt-cardiac-icu-columbus-oh-148328553644032002) |
 | PAUT/AUT Tech | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/7/c9/0fd8c7828f5705ffeadc93b7d77e9.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> NDT.org | [View](https://www.openjobs-ai.com/jobs/pautaut-tech-austin-texas-metropolitan-area-148328553644032003) |
@@ -274,6 +269,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Travel Cath Lab Technologist | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/3/bd/46e11226d95a9b6b7fe5a16328803.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> $2,447 per week | [View](https://www.openjobs-ai.com/jobs/travel-cath-lab-technologist-2447-per-week-2368610-conroe-tx-148328696250368000) |
 | Portfolio Management Lead, Digital Services Business Operations | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/cd/3903964cb9a2909a0cfd1c68d0eae.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Aegistech | [View](https://www.openjobs-ai.com/jobs/portfolio-management-lead-digital-services-business-operations-detroit-metropolitan-area-148328696250368001) |
 | Victim Advocate Supervisor | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/87/49adf0fa9ad856bee573b80ba8668.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Loudoun County Government | [View](https://www.openjobs-ai.com/jobs/victim-advocate-supervisor-leesburg-va-148328696250368002) |
+| Sr. Accountant | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/8/00/8704179c264f440745630669fc4b7.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> PharMerica | [View](https://www.openjobs-ai.com/jobs/sr-accountant-englewood-co-148328696250368003) |
+| Senior Mechanical Design Engineer | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/3/ae/85e54968035b31152074fb3287883.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Space Kinetic Corp. | [View](https://www.openjobs-ai.com/jobs/senior-mechanical-design-engineer-el-segundo-ca-148328696250368004) |
+| Senior ML Data Scientist - Marketplace, Apple Ads | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/1/f3/870be274f6c49b3e31a0c6728957f.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Apple | [View](https://www.openjobs-ai.com/jobs/senior-ml-data-scientist-marketplace-apple-ads-cupertino-ca-148328868216832000) |
+| Office Manager / Staff Officer Level 4 | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/a/6b/6946da8eedbe1ea455f7b896085f2.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> TULK | [View](https://www.openjobs-ai.com/jobs/office-manager-staff-officer-level-4-springfield-va-148328276819968026) |
+| Pharmacy Technician | <img src="https://images.weserv.nl/?url=https://front.openjobs-ai.com/data/company-logo/v3/2/f5/9625ceca353dceb62b07273ab49a5.png&w=24&h=24&q=80&output=webp" width="20" height="20" alt=""> Jushi Holdings Inc. | [View](https://www.openjobs-ai.com/jobs/pharmacy-technician-woodbridge-va-148328553644032000) |
 
 <p align="center">
   <em>...and 0 more jobs</em>
@@ -286,5 +286,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with Python + GitHub Actions · Updated March 22, 2026
+  Made with Python + GitHub Actions · Updated March 23, 2026
 </p>
