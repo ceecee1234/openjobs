@@ -1,31 +1,31 @@
 # 🚀 AI Remote Jobs Daily
 
-Last Update: 2026-05-27 20:24:13.508610 UTC
+Last Update: 2026-05-28 04:01:24.461841 UTC
 
 ## 🔥 Latest Remote Jobs
 
 | Company | Position | Location |
 |---|---|---|
-| OpenAI | [Frontend Developer](jobs/openai-frontend-developer.html) | Europe |
-| Zapier | [Frontend Developer](jobs/zapier-frontend-developer.html) | USA |
+| Shopify | [Python Developer](jobs/shopify-python-developer.html) | Asia |
+| Notion | [Python Developer](jobs/notion-python-developer.html) | USA |
+| Stripe | [DevOps Engineer](jobs/stripe-devops-engineer.html) | Europe |
 | Stripe | [Frontend Developer](jobs/stripe-frontend-developer.html) | Europe |
-| OpenAI | [Python Developer](jobs/openai-python-developer.html) | Asia |
-| GitLab | [DevOps Engineer](jobs/gitlab-devops-engineer.html) | Worldwide |
-| OpenAI | [AI Engineer](jobs/openai-ai-engineer.html) | Asia |
-| Notion | [SEO Specialist](jobs/notion-seo-specialist.html) | Remote |
-| OpenAI | [Python Developer](jobs/openai-python-developer.html) | Worldwide |
-| Automattic | [Python Developer](jobs/automattic-python-developer.html) | Remote |
-| Stripe | [AI Engineer](jobs/stripe-ai-engineer.html) | Worldwide |
-| Notion | [AI Engineer](jobs/notion-ai-engineer.html) | Europe |
+| Shopify | [Backend Developer](jobs/shopify-backend-developer.html) | Worldwide |
+| Zapier | [Python Developer](jobs/zapier-python-developer.html) | USA |
 | GitLab | [DevOps Engineer](jobs/gitlab-devops-engineer.html) | Europe |
-| Zapier | [AI Engineer](jobs/zapier-ai-engineer.html) | Europe |
-| Stripe | [AI Engineer](jobs/stripe-ai-engineer.html) | USA |
-| Notion | [Frontend Developer](jobs/notion-frontend-developer.html) | Asia |
-| Stripe | [DevOps Engineer](jobs/stripe-devops-engineer.html) | Asia |
-| Shopify | [Backend Developer](jobs/shopify-backend-developer.html) | Europe |
-| Zapier | [Backend Developer](jobs/zapier-backend-developer.html) | USA |
-| OpenAI | [Python Developer](jobs/openai-python-developer.html) | Remote |
-| OpenAI | [AI Engineer](jobs/openai-ai-engineer.html) | Worldwide |
+| Zapier | [DevOps Engineer](jobs/zapier-devops-engineer.html) | Asia |
+| GitLab | [Python Developer](jobs/gitlab-python-developer.html) | Asia |
+| Stripe | [Frontend Developer](jobs/stripe-frontend-developer.html) | Europe |
+| OpenAI | [Frontend Developer](jobs/openai-frontend-developer.html) | Worldwide |
+| OpenAI | [Frontend Developer](jobs/openai-frontend-developer.html) | Asia |
+| GitLab | [Backend Developer](jobs/gitlab-backend-developer.html) | Worldwide |
+| Stripe | [Python Developer](jobs/stripe-python-developer.html) | USA |
+| Notion | [SEO Specialist](jobs/notion-seo-specialist.html) | Europe |
+| Stripe | [Python Developer](jobs/stripe-python-developer.html) | Worldwide |
+| GitLab | [Backend Developer](jobs/gitlab-backend-developer.html) | USA |
+| GitLab | [SEO Specialist](jobs/gitlab-seo-specialist.html) | Worldwide |
+| OpenAI | [DevOps Engineer](jobs/openai-devops-engineer.html) | Remote |
+| Shopify | [Backend Developer](jobs/shopify-backend-developer.html) | Asia |
 
 ---
 
