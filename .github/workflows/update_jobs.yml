@@ -1,25 +1,43 @@
-name: Update Jobs
-on:
-  schedule:
-    - cron: "0 */12 * * *"  # 自动运行：每12小时（一天两次）自动触发一次
-  workflow_dispatch:        # 手动触发：允许你在 GitHub 页面上点按钮随时运行
+import os
+import requests
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4  # 已升级到更稳定的 v4 版本
+def send_telegram_message(token, chat_id, text):
+    """向 Telegram 机器人发送消息的通用函数"""
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    payload = {
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "Markdown"
+    }
+    try:
+        response = requests.post(url, json=payload)
+        if response.status_code == 200:
+            print("✅ Telegram 消息发送成功！")
+        else:
+            print(f"❌ Telegram 发送失败，状态码: {response.status_code}, 回应: {response.text}")
+    except Exception as e:
+        print(f"💥 发送过程中出现异常: {e}")
 
-      - name: Set up Python
-        uses: actions/setup-python@v5  # 已升级到更稳定的 v5 版本
-        with:
-          python-version: "3.11"
+def main():
+    # 从 GitHub Actions 的 env 中读取密钥
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    
+    if not token or not chat_id:
+        print("⚠️ 未检测到 TELEGRAM_BOT_TOKEN 或 TELEGRAM_CHAT_ID，请检查 GitHub Secrets 配置！")
+        return
 
-      - name: Install dependencies
-        run: pip install requests
+    print("🚀 开始执行 OpenJobs 定时数据更新任务...")
+    
+    # ----------------------------------------------------
+    # 💡 这里写你原本的抓取/数据处理业务逻辑
+    # 示例：假设我们获取到了一些新数据
+    job_count = 5 
+    message_text = f"📢 *OpenJobs 自动更新报告*\n\n定时任务已成功运行！运行周期：每 12 小时。\n当前成功更新了 {job_count} 个最新职位数据。"
+    # ----------------------------------------------------
+    
+    # 发送通知到 Telegram
+    send_telegram_message(token, chat_id, message_text)
 
-      - name: Run Update Script
-        run: python scripts/update_jobs.py  # 云端会自动寻找项目里的这个 Python 脚本运行
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+if __name__ == "__main__":
+    main()
