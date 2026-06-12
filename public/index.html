@@ -1,23 +1,166 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>OpenJobs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI远程工作每日更新</title>
+<style>
+  /* ------------------------------
+     基础样式
+  ------------------------------ */
+  body {
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  header h1 img {
+    width: 36px;
+    height: 36px;
+  }
+  main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  .update-time {
+    text-align: right;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  h2 span {
+    font-size: 1.2em;
+  }
+
+  /* ------------------------------
+     表格样式
+  ------------------------------ */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  tr:hover {
+    background-color: #f1f8ff;
+  }
+  a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* ------------------------------
+     响应式表格
+  ------------------------------ */
+  @media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    thead tr {
+      display: none;
+    }
+    td {
+      padding: 10px;
+      position: relative;
+    }
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: inline-block;
+      width: 100px;
+    }
+  }
+</style>
 </head>
 <body>
-<h1>OpenJobs Daily</h1>
-<ul id="job-list"></ul>
+<header>
+  <h1>🚀 AI远程工作日报</h1>
+</header>
+<main>
+  <div class="update-time" id="update-time"></div>
+
+  <h2>🔥 最新远程工作</h2>
+  <table id="job-table">
+    <thead>
+      <tr>
+        <th>公司</th>
+        <th>职位</th>
+        <th>地点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- JS 自动填充 -->
+    </tbody>
+  </table>
+</main>
+
 <script>
-fetch('jobs/jobs.json')
-  .then(res => res.json())
-  .then(jobs => {
-    const ul = document.getElementById('job-list');
-    jobs.forEach(job => {
-      const li = document.createElement('li');
-      li.innerHTML = `<a href="${job.url}" target="_blank">${job.title}</a> @ ${job.company} (${job.location})`;
-      ul.appendChild(li);
+  // ------------------------------
+  // 数据文件路径
+  // ------------------------------
+  const dataFile = 'jobs/jobs.json';
+
+  // ------------------------------
+  // 更新页面
+  // ------------------------------
+  fetch(dataFile)
+    .then(res => res.json())
+    .then(jobs => {
+      const tbody = document.querySelector('#job-table tbody');
+      tbody.innerHTML = '';
+      jobs.forEach(job => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td data-label="公司">${job.company}</td>
+          <td data-label="职位"><a href="${job.url}" target="_blank">${job.title}</a></td>
+          <td data-label="地点">${job.location}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // 更新时间显示
+      const updateEl = document.getElementById('update-time');
+      const now = new Date();
+      updateEl.textContent = `最后更新：${now.toLocaleString()}`;
+    })
+    .catch(err => {
+      console.error('无法加载职位数据:', err);
     });
-  });
 </script>
 </body>
 </html>
