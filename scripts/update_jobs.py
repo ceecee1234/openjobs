@@ -3,7 +3,7 @@ import os
 import requests
 
 # -------------------------------
-# 模拟抓取职位
+# 模拟抓取职位（零API版）
 # -------------------------------
 jobs = [
     {"title":"Python 数据标注员", "company":"OpenAI", "location":"Remote", "url":"https://example.com/job1", "source":"手动添加"},
@@ -14,6 +14,8 @@ jobs = [
 # 历史职位去重
 # -------------------------------
 jobs_file = "../jobs/jobs.json"
+os.makedirs(os.path.dirname(jobs_file), exist_ok=True)
+
 if not os.path.exists(jobs_file):
     history = []
 else:
@@ -29,7 +31,6 @@ for job in jobs:
 # -------------------------------
 # 保存历史职位
 # -------------------------------
-os.makedirs(os.path.dirname(jobs_file), exist_ok=True)
 with open(jobs_file, "w", encoding="utf-8") as f:
     json.dump(history, f, ensure_ascii=False, indent=2)
 
