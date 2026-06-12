@@ -1,0 +1,22 @@
+name: Update Jobs
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天 UTC 00:00
+  workflow_dispatch: # 手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run Update Script
+        run: python scripts/update_jobs.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

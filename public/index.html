@@ -1,37 +1,23 @@
-# 🚀 AI Remote Jobs Daily
-
-Find the best remote jobs for:
-
-- Beginners
-- AI workers
-- Developers
-- Designers
-- Digital Nomads
-
-## 🔥 Updated Daily
-
-We collect the latest:
-
-- Remote Jobs
-- AI Jobs
-- No Experience Jobs
-- Work From Home Jobs
-
-## 🌍 Why This Site?
-
-Most remote job websites are:
-
-- Too complicated
-- Full of fake jobs
-- Hard for beginners
-
-This site focuses on:
-
-✅ Real remote jobs  
-✅ Beginner friendly jobs  
-✅ AI industry jobs  
-✅ Daily updates  
-
-## 📩 Join Our Telegram
-
-Coming Soon...
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>OpenJobs</title>
+</head>
+<body>
+<h1>OpenJobs Daily</h1>
+<ul id="job-list"></ul>
+<script>
+fetch('jobs/jobs.json')
+  .then(res => res.json())
+  .then(jobs => {
+    const ul = document.getElementById('job-list');
+    jobs.forEach(job => {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="${job.url}" target="_blank">${job.title}</a> @ ${job.company} (${job.location})`;
+      ul.appendChild(li);
+    });
+  });
+</script>
+</body>
+</html>
