@@ -3,163 +3,806 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI远程工作每日更新</title>
+<title>AI Remote Jobs - 发现全球最佳远程工作</title>
+<meta name="description" content="发现来自顶级科技公司的AI和远程工作机会 - Shopify, OpenAI, Stripe, Cloudflare, Automattic, GitLab, Notion, Zapier">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  /* ------------------------------
-     基础样式
-  ------------------------------ */
-  body {
-    font-family: "Microsoft YaHei", Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+  :root {
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary: #0ea5e9;
+    --accent: #f59e0b;
+    --bg: #0f172a;
+    --bg-card: #1e293b;
+    --bg-card-hover: #334155;
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --border: #334155;
+    --success: #22c55e;
+    --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+  }
+
+  * {
     margin: 0;
     padding: 0;
-  }
-  header {
-    background-color: #1e1e2f;
-    color: #fff;
-    padding: 20px 30px;
-    text-align: center;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  header h1 img {
-    width: 36px;
-    height: 36px;
-  }
-  main {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
-  }
-  .update-time {
-    text-align: right;
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 10px;
-  }
-  h2 {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    gap: 8px;
-    margin-bottom: 15px;
-  }
-  h2 span {
-    font-size: 1.2em;
+    box-sizing: border-box;
   }
 
-  /* ------------------------------
-     表格样式
-  ------------------------------ */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
   }
-  th, td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #e0e0e0;
+
+  /* Header */
+  header {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 1rem 2rem;
   }
-  th {
-    background-color: #4a90e2;
-    color: white;
+
+  .header-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  tr:hover {
-    background-color: #f1f8ff;
-  }
-  a {
-    color: #1e90ff;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--text);
     text-decoration: none;
   }
-  a:hover {
-    text-decoration: underline;
+
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--gradient);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
   }
 
-  /* ------------------------------
-     响应式表格
-  ------------------------------ */
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover {
+    color: var(--primary);
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.15) 0%, transparent 60%);
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero p {
+    font-size: 1.125rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+  }
+
+  .stat-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+
+  /* Search Section */
+  .search-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+  }
+
+  .search-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: -2rem;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  .search-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .search-input {
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+  }
+
+  .search-input input {
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--text);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-input input:focus {
+    border-color: var(--primary);
+  }
+
+  .search-input::before {
+    content: "🔍";
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+  }
+
+  .filter-select {
+    padding: 1rem 2rem 1rem 1rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--text);
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    min-width: 150px;
+  }
+
+  .filter-group {
+    position: relative;
+  }
+
+  .filter-group::after {
+    content: "▼";
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.625rem;
+    color: var(--text-muted);
+    pointer-events: none;
+  }
+
+  /* Filter Tags */
+  .filter-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .filter-tag {
+    padding: 0.5rem 1rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .filter-tag:hover, .filter-tag.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+  }
+
+  /* Main Content */
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .job-count {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+  }
+
+  /* Job Cards Grid */
+  .jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .job-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .job-card:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--primary);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -12px rgba(99, 102, 241, 0.25);
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .company-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .company-logo {
+    width: 48px;
+    height: 48px;
+    background: var(--gradient);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  .company-name {
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+  .job-title {
+    font-size: 1rem;
+    color: var(--text);
+    margin-top: 0.25rem;
+  }
+
+  .job-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .job-tag {
+    padding: 0.375rem 0.75rem;
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 6px;
+    font-size: 0.75rem;
+    color: var(--primary);
+    font-weight: 500;
+  }
+
+  .job-tag.location {
+    background: rgba(14, 165, 233, 0.1);
+    color: var(--secondary);
+  }
+
+  .job-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+
+  .apply-btn {
+    padding: 0.5rem 1rem;
+    background: var(--gradient);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  .apply-btn:hover {
+    opacity: 0.9;
+  }
+
+  /* Companies Section */
+  .companies-section {
+    margin-top: 4rem;
+  }
+
+  .companies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .company-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.2s;
+  }
+
+  .company-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+  }
+
+  .company-card-logo {
+    width: 48px;
+    height: 48px;
+    background: var(--gradient);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  .company-card-name {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  .company-card-jobs {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+  }
+
+  /* Footer */
+  footer {
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .footer-content {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover {
+    color: var(--primary);
+  }
+
+  .footer-copy {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+  }
+
+  /* Loading & Empty States */
+  .loading {
+    text-align: center;
+    padding: 4rem;
+    color: var(--text-muted);
+  }
+
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 4rem;
+    color: var(--text-muted);
+  }
+
+  .no-results-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Responsive */
   @media (max-width: 768px) {
-    table, thead, tbody, th, td, tr {
-      display: block;
+    .header-content {
+      flex-direction: column;
+      gap: 1rem;
     }
-    thead tr {
-      display: none;
+
+    .stats {
+      gap: 1.5rem;
     }
-    td {
-      padding: 10px;
-      position: relative;
+
+    .search-box {
+      margin-top: 0;
     }
-    td::before {
-      content: attr(data-label);
-      font-weight: bold;
-      display: inline-block;
-      width: 100px;
+
+    .search-row {
+      flex-direction: column;
+    }
+
+    .jobs-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+      flex-direction: column;
+      gap: 1rem;
     }
   }
 </style>
 </head>
 <body>
 <header>
-  <h1>🚀 AI远程工作日报</h1>
+  <div class="header-content">
+    <a href="/" class="logo">
+      <div class="logo-icon">🚀</div>
+      <span>AI Remote Jobs</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#jobs">职位</a>
+      <a href="#companies">公司</a>
+      <a href="https://github.com/ceecee1234/openjobs" target="_blank">GitHub</a>
+    </nav>
+  </div>
 </header>
-<main>
-  <div class="update-time" id="update-time"></div>
 
-  <h2>🔥 最新远程工作</h2>
-  <table id="job-table">
-    <thead>
-      <tr>
-        <th>公司</th>
-        <th>职位</th>
-        <th>地点</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- JS 自动填充 -->
-    </tbody>
-  </table>
+<section class="hero">
+  <h1>发现全球最佳AI远程工作</h1>
+  <p>来自顶级科技公司的精选远程职位，包括 OpenAI、Shopify、Stripe、Cloudflare 等</p>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-number" id="job-count">48+</div>
+      <div class="stat-label">热门职位</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">8</div>
+      <div class="stat-label">优质公司</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">100%</div>
+      <div class="stat-label">远程工作</div>
+    </div>
+  </div>
+</section>
+
+<section class="search-section">
+  <div class="search-box">
+    <div class="search-row">
+      <div class="search-input">
+        <input type="text" id="search-input" placeholder="搜索职位、公司...">
+      </div>
+      <div class="filter-group">
+        <select class="filter-select" id="company-filter">
+          <option value="">所有公司</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <select class="filter-select" id="location-filter">
+          <option value="">所有地点</option>
+        </select>
+      </div>
+    </div>
+    <div class="filter-tags" id="filter-tags">
+      <span class="filter-tag active" data-filter="all">全部</span>
+      <span class="filter-tag" data-filter="AI">AI相关</span>
+      <span class="filter-tag" data-filter="Developer">开发者</span>
+      <span class="filter-tag" data-filter="DevOps">DevOps</span>
+      <span class="filter-tag" data-filter="SEO">SEO</span>
+    </div>
+  </div>
+</section>
+
+<main id="jobs">
+  <div class="section-header">
+    <h2 class="section-title">🔥 热门职位</h2>
+    <span class="job-count" id="job-count-display">显示 48 个职位</span>
+  </div>
+  <div class="jobs-grid" id="jobs-grid">
+    <div class="loading">
+      <div class="loading-spinner"></div>
+      <p>正在加载职位...</p>
+    </div>
+  </div>
 </main>
 
-<script>
-  // ------------------------------
-  // 数据文件路径
-  // ------------------------------
-  const dataFile = 'jobs/jobs.json';
+<section class="companies-section" id="companies">
+  <div class="section-header">
+    <h2 class="section-title">🏢 合作品牌</h2>
+  </div>
+  <div class="companies-grid" id="companies-grid"></div>
+</section>
 
-  // ------------------------------
-  // 更新页面
-  // ------------------------------
+<footer>
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="/openjobs/">首页</a>
+      <a href="https://github.com/ceecee1234/openjobs" target="_blank">GitHub</a>
+      <a href="/openjobs/SECURITY.html">安全政策</a>
+      <a href="/openjobs/CRASH_PREVENTION_FIXES.html">崩溃预防</a>
+    </div>
+    <p class="footer-copy">© 2024 AI Remote Jobs. 用 ❤️ 为远程工作者打造</p>
+  </div>
+</footer>
+
+<script>
+  const dataFile = 'jobs/jobs.json';
+  
+  // 公司首字母颜色映射
+  const companyColors = {
+    'Automattic': '#3495f1',
+    'Cloudflare': '#f6821f',
+    'GitLab': '#fc6d26',
+    'Notion': '#000000',
+    'OpenAI': '#10a37f',
+    'Shopify': '#96bf48',
+    'Stripe': '#635bff',
+    'Zapier': '#ff4a00'
+  };
+
+  function getCompanyColor(company) {
+    return companyColors[company] || '#6366f1';
+  }
+
+  function getJobCategory(title) {
+    const t = title.toLowerCase();
+    if (t.includes('ai') || t.includes('machine') || t.includes('data')) return 'AI';
+    if (t.includes('devops') || t.includes('sre') || t.includes('infrastructure')) return 'DevOps';
+    if (t.includes('seo') || t.includes('marketing')) return 'SEO';
+    if (t.includes('frontend') || t.includes('backend') || t.includes('fullstack') || 
+        t.includes('python') || t.includes('software') || t.includes('engineer') ||
+        t.includes('developer')) return 'Developer';
+    return 'Other';
+  }
+
+  function createJobCard(job) {
+    const category = getJobCategory(job.title);
+    return `
+      <a href="${job.url}" class="job-card" target="_blank">
+        <div class="job-header">
+          <div class="company-badge">
+            <div class="company-logo" style="background: ${getCompanyColor(job.company)}">
+              ${job.company.charAt(0)}
+            </div>
+            <div>
+              <div class="company-name">${job.company}</div>
+              <div class="job-title">${job.title}</div>
+            </div>
+          </div>
+        </div>
+        <div class="job-tags">
+          <span class="job-tag">${category}</span>
+          <span class="job-tag location">📍 ${job.location}</span>
+        </div>
+        <div class="job-meta">
+          <span>查看详情 →</span>
+          <button class="apply-btn">申请</button>
+        </div>
+      </a>
+    `;
+  }
+
+  function createCompanyCard(company, count) {
+    return `
+      <div class="company-card" onclick="filterByCompany('${company}')">
+        <div class="company-card-logo" style="background: ${getCompanyColor(company)}">
+          ${company.charAt(0)}
+        </div>
+        <div class="company-card-name">${company}</div>
+        <div class="company-card-jobs">${count} 个职位</div>
+      </div>
+    `;
+  }
+
+  function populateFilters(jobs) {
+    const companies = [...new Set(jobs.map(j => j.company))].sort();
+    const locations = [...new Set(jobs.map(j => j.location))].sort();
+    
+    const companySelect = document.getElementById('company-filter');
+    const locationSelect = document.getElementById('location-filter');
+    
+    companies.forEach(c => {
+      companySelect.innerHTML += `<option value="${c}">${c}</option>`;
+    });
+    
+    locations.forEach(l => {
+      locationSelect.innerHTML += `<option value="${l}">${l}</option>`;
+    });
+  }
+
+  function filterJobs() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const companyFilter = document.getElementById('company-filter').value;
+    const locationFilter = document.getElementById('location-filter').value;
+    const activeTag = document.querySelector('.filter-tag.active').dataset.filter;
+    
+    return window.allJobs.filter(job => {
+      const matchesSearch = job.title.toLowerCase().includes(searchTerm) || 
+                           job.company.toLowerCase().includes(searchTerm);
+      const matchesCompany = !companyFilter || job.company === companyFilter;
+      const matchesLocation = !locationFilter || job.location === locationFilter;
+      const matchesCategory = activeTag === 'all' || getJobCategory(job.title) === activeTag;
+      
+      return matchesSearch && matchesCompany && matchesLocation && matchesCategory;
+    });
+  }
+
+  function renderJobs() {
+    const filteredJobs = filterJobs();
+    const grid = document.getElementById('jobs-grid');
+    const countDisplay = document.getElementById('job-count-display');
+    
+    countDisplay.textContent = `显示 ${filteredJobs.length} 个职位`;
+    
+    if (filteredJobs.length === 0) {
+      grid.innerHTML = `
+        <div class="no-results">
+          <div class="no-results-icon">🔍</div>
+          <p>没有找到匹配的职位</p>
+          <p style="font-size: 0.875rem; margin-top: 0.5rem;">尝试调整搜索条件</p>
+        </div>
+      `;
+      return;
+    }
+    
+    grid.innerHTML = filteredJobs.map(createJobCard).join('');
+  }
+
+  function renderCompanies(jobs) {
+    const companies = {};
+    jobs.forEach(j => {
+      companies[j.company] = (companies[j.company] || 0) + 1;
+    });
+    
+    const grid = document.getElementById('companies-grid');
+    grid.innerHTML = Object.entries(companies)
+      .sort((a, b) => b[1] - a[1])
+      .map(([company, count]) => createCompanyCard(company, count))
+      .join('');
+  }
+
+  function filterByCompany(company) {
+    document.getElementById('company-filter').value = company;
+    document.getElementById('jobs').scrollIntoView({ behavior: 'smooth' });
+    renderJobs();
+  }
+
+  // Event Listeners
+  document.getElementById('search-input').addEventListener('input', renderJobs);
+  document.getElementById('company-filter').addEventListener('change', renderJobs);
+  document.getElementById('location-filter').addEventListener('change', renderJobs);
+
+  document.querySelectorAll('.filter-tag').forEach(tag => {
+    tag.addEventListener('click', () => {
+      document.querySelectorAll('.filter-tag').forEach(t => t.classList.remove('active'));
+      tag.classList.add('active');
+      renderJobs();
+    });
+  });
+
+  // Load Data
   fetch(dataFile)
     .then(res => res.json())
     .then(jobs => {
-      const tbody = document.querySelector('#job-table tbody');
-      tbody.innerHTML = '';
-      jobs.forEach(job => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td data-label="公司">${job.company}</td>
-          <td data-label="职位"><a href="${job.url}" target="_blank">${job.title}</a></td>
-          <td data-label="地点">${job.location}</td>
-        `;
-        tbody.appendChild(tr);
-      });
-
-      // 更新时间显示
-      const updateEl = document.getElementById('update-time');
-      const now = new Date();
-      updateEl.textContent = `最后更新：${now.toLocaleString()}`;
+      window.allJobs = jobs;
+      document.getElementById('job-count').textContent = jobs.length + '+';
+      populateFilters(jobs);
+      renderJobs();
+      renderCompanies(jobs);
     })
     .catch(err => {
-      console.error('无法加载职位数据:', err);
+      console.error('加载失败:', err);
+      document.getElementById('jobs-grid').innerHTML = `
+        <div class="no-results">
+          <div class="no-results-icon">❌</div>
+          <p>加载职位数据失败</p>
+        </div>
+      `;
     });
 </script>
 </body>
