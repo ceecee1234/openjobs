@@ -1,37 +1,265 @@
-
-    <html>
-    <head>
-        <title>Frontend Developer at GitLab</title>
-    </head>
-    <body style="font-family: Arial; padding:40px; max-width:800px; margin:auto;">
-        <h1>Frontend Developer</h1>
-
-        <h2>GitLab</h2>
-
-        <p><strong>Location:</strong> Europe</p>
-
-        <h3>Job Description</h3>
-
-        <p>Create SEO content and optimize websites.</p>
-
-        <h3>Requirements</h3>
-
-        <ul>
-            <li>Remote work experience preferred</li>
-            <li>English communication skills</li>
-            <li>AI tools experience is a plus</li>
-        </ul>
-
-        <h3>Salary</h3>
-
-        <p>$80,000 - $150,000 USD</p>
-
-        <h3>Apply</h3>
-
-        <a href="https://remoteok.com/" target="_blank">
-            Apply Here
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frontend Developer at GitLab - AI Remote Jobs</title>
+<meta name="description" content="Frontend Developer at GitLab. Europe. Find remote AI jobs at top tech companies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary: #0ea5e9;
+    --bg: #0f172a;
+    --bg-card: #1e293b;
+    --bg-card-hover: #334155;
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --border: #334155;
+    --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+header {
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--text);
+    text-decoration: none;
+}
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--gradient);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+.back-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.2s;
+}
+.back-link:hover { color: var(--primary); }
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+.job-header {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.company-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.company-logo {
+    width: 64px;
+    height: 64px;
+    background: var(--gradient);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: white;
+}
+.company-info h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.company-name {
+    color: var(--text-muted);
+    font-size: 1.125rem;
+}
+.job-meta {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+.meta-item span {
+    color: var(--text);
+    font-weight: 500;
+}
+.section {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+.section li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+.section li:last-child { border-bottom: none; }
+.section li::before {
+    content: "✓";
+    color: var(--success);
+    font-weight: bold;
+}
+.apply-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: radial-gradient(ellipse at center, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+}
+.apply-btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: var(--gradient);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.apply-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 40px -12px rgba(99, 102, 241, 0.4);
+}
+footer {
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+footer a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+footer a:hover { color: var(--primary); }
+footer p { color: var(--text-muted); font-size: 0.875rem; margin-top: 0.5rem; }
+@media (max-width: 768px) {
+    .job-meta { flex-direction: column; gap: 1rem; }
+    .company-row { flex-direction: column; text-align: center; }
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <a href="/openjobs/" class="logo">
+            <div class="logo-icon">🚀</div>
+            <span>AI Remote Jobs</span>
         </a>
+        <a href="/openjobs/" class="back-link">← 返回职位列表</a>
+    </div>
+</header>
 
-    </body>
-    </html>
-    
+<main>
+    <div class="job-header">
+        <div class="company-row">
+            <div class="company-logo">G</div>
+            <div class="company-info">
+                <h1>Frontend Developer</h1>
+                <div class="company-name">GitLab</div>
+            </div>
+        </div>
+        <div class="job-meta">
+            <div class="meta-item">📍 <span>Europe</span></div>
+            <div class="meta-item">💼 <span>全职</span></div>
+            <div class="meta-item">🚀 <span>远程工作</span></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📋 职位描述</h2>
+        <p>Build beautiful and performant user interfaces. Work with modern frameworks like React, Vue, or similar.</p>
+    </div>
+
+    <div class="section">
+        <h2>✅ 要求</h2>
+        <ul>
+            <li>有远程工作经验者优先</li>
+            <li>良好的英语沟通能力</li>
+            <li>独立工作和团队协作能力</li>
+            <li>对 AI/技术有浓厚兴趣</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>💰 薪资待遇</h2>
+        <p style="font-size: 1.25rem; font-weight: 600; color: var(--success);">$80,000 - $150,000 USD / 年</p>
+    </div>
+
+    <div class="apply-section">
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem;">准备好开始你的远程工作之旅了吗？</p>
+        <a href="https://remoteok.com/" target="_blank" class="apply-btn">立即申请</a>
+    </div>
+</main>
+
+<footer>
+    <a href="/openjobs/">← 返回首页</a>
+    <p>© 2024 AI Remote Jobs</p>
+</footer>
+</body>
+</html>
