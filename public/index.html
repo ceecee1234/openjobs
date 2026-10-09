@@ -281,10 +281,10 @@
   const PAGE_SIZE = 30;
   // Keep in sync with CATEGORIES in scripts/build_site.py.
   const CATEGORIES = [
-    { key: 'AI', label: 'AI 相关', re: /\b(ai|ml|machine learning|data scientist|llm)\b/i },
-    { key: 'DevOps', label: 'DevOps', re: /\b(devops|sre|infrastructure|platform)\b/i },
-    { key: 'SEO', label: 'SEO / 营销', re: /\b(seo|marketing|content)\b/i },
-    { key: 'Developer', label: '开发者', re: /\b(frontend|backend|fullstack|full stack|python|software|engineer|developer)\b/i },
+    { key: 'AI', label: 'AI 相关', re: /\b(ai|ml|machine learning|data scientist|llm)\b|人工智能|算法|机器学习|大模型/i },
+    { key: 'DevOps', label: 'DevOps', re: /\b(devops|sre|infrastructure|platform)\b|运维/i },
+    { key: 'SEO', label: 'SEO / 营销', re: /\b(seo|marketing|content)\b|营销|运营|内容|文案|增长/i },
+    { key: 'Developer', label: '开发者', re: /\b(frontend|backend|fullstack|full stack|python|software|engineer|developer)\b|开发|工程师|程序员|架构/i },
   ];
   const LABEL = Object.fromEntries([...CATEGORIES.map(c => [c.key, c.label]), ['Other', '其他']]);
 

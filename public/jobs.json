@@ -3,288 +3,1301 @@
     "company": "Automattic",
     "title": "AI Engineer",
     "location": "Worldwide",
-    "url": "jobs/automattic-ai-engineer.html"
+    "url": "jobs/automattic-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "Automattic",
     "title": "Backend Developer",
     "location": "USA",
-    "url": "jobs/automattic-backend-developer.html"
+    "url": "jobs/automattic-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Automattic",
     "title": "DevOps Engineer",
     "location": "Asia",
-    "url": "jobs/automattic-devops-engineer.html"
+    "url": "jobs/automattic-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "Automattic",
     "title": "Frontend Developer",
     "location": "Worldwide",
-    "url": "jobs/automattic-frontend-developer.html"
+    "url": "jobs/automattic-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Automattic",
     "title": "Python Developer",
     "location": "USA",
-    "url": "jobs/automattic-python-developer.html"
+    "url": "jobs/automattic-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Automattic",
     "title": "SEO Specialist",
     "location": "Europe",
-    "url": "jobs/automattic-seo-specialist.html"
+    "url": "jobs/automattic-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
   },
   {
     "company": "Cloudflare",
     "title": "AI Engineer",
     "location": "Remote",
-    "url": "jobs/cloudflare-ai-engineer.html"
+    "url": "jobs/cloudflare-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "Cloudflare",
     "title": "Backend Developer",
     "location": "Worldwide",
-    "url": "jobs/cloudflare-backend-developer.html"
+    "url": "jobs/cloudflare-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Cloudflare",
     "title": "DevOps Engineer",
     "location": "Remote",
-    "url": "jobs/cloudflare-devops-engineer.html"
+    "url": "jobs/cloudflare-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "Cloudflare",
     "title": "Frontend Developer",
     "location": "USA",
-    "url": "jobs/cloudflare-frontend-developer.html"
+    "url": "jobs/cloudflare-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Cloudflare",
     "title": "Python Developer",
     "location": "USA",
-    "url": "jobs/cloudflare-python-developer.html"
+    "url": "jobs/cloudflare-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Cloudflare",
     "title": "SEO Specialist",
     "location": "Europe",
-    "url": "jobs/cloudflare-seo-specialist.html"
+    "url": "jobs/cloudflare-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
   },
   {
     "company": "GitLab",
     "title": "AI Engineer",
     "location": "Europe",
-    "url": "jobs/gitlab-ai-engineer.html"
+    "url": "jobs/gitlab-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "GitLab",
     "title": "Backend Developer",
     "location": "Europe",
-    "url": "jobs/gitlab-backend-developer.html"
+    "url": "jobs/gitlab-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "GitLab",
     "title": "DevOps Engineer",
     "location": "Worldwide",
-    "url": "jobs/gitlab-devops-engineer.html"
+    "url": "jobs/gitlab-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "GitLab",
     "title": "Frontend Developer",
     "location": "Europe",
-    "url": "jobs/gitlab-frontend-developer.html"
+    "url": "jobs/gitlab-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "GitLab",
     "title": "Python Developer",
     "location": "Europe",
-    "url": "jobs/gitlab-python-developer.html"
+    "url": "jobs/gitlab-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "GitLab",
     "title": "SEO Specialist",
     "location": "Remote",
-    "url": "jobs/gitlab-seo-specialist.html"
+    "url": "jobs/gitlab-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
   },
   {
     "company": "Notion",
     "title": "AI Engineer",
     "location": "USA",
-    "url": "jobs/notion-ai-engineer.html"
+    "url": "jobs/notion-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "Notion",
     "title": "Backend Developer",
     "location": "Europe",
-    "url": "jobs/notion-backend-developer.html"
+    "url": "jobs/notion-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Notion",
     "title": "DevOps Engineer",
     "location": "Europe",
-    "url": "jobs/notion-devops-engineer.html"
+    "url": "jobs/notion-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "Notion",
     "title": "Frontend Developer",
     "location": "Worldwide",
-    "url": "jobs/notion-frontend-developer.html"
+    "url": "jobs/notion-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Notion",
     "title": "Python Developer",
     "location": "Europe",
-    "url": "jobs/notion-python-developer.html"
+    "url": "jobs/notion-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Notion",
     "title": "SEO Specialist",
     "location": "Worldwide",
-    "url": "jobs/notion-seo-specialist.html"
+    "url": "jobs/notion-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
   },
   {
     "company": "OpenAI",
     "title": "AI Engineer",
     "location": "Asia",
-    "url": "jobs/openai-ai-engineer.html"
+    "url": "jobs/openai-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "OpenAI",
     "title": "Backend Developer",
     "location": "USA",
-    "url": "jobs/openai-backend-developer.html"
+    "url": "jobs/openai-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "OpenAI",
     "title": "DevOps Engineer",
     "location": "Europe",
-    "url": "jobs/openai-devops-engineer.html"
+    "url": "jobs/openai-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "OpenAI",
     "title": "Frontend Developer",
     "location": "Asia",
-    "url": "jobs/openai-frontend-developer.html"
+    "url": "jobs/openai-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "OpenAI",
     "title": "Python Developer",
     "location": "USA",
-    "url": "jobs/openai-python-developer.html"
+    "url": "jobs/openai-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "OpenAI",
     "title": "SEO Specialist",
     "location": "Worldwide",
-    "url": "jobs/openai-seo-specialist.html"
+    "url": "jobs/openai-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
   },
   {
     "company": "Shopify",
     "title": "AI Engineer",
     "location": "USA",
-    "url": "jobs/shopify-ai-engineer.html"
+    "url": "jobs/shopify-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "Shopify",
     "title": "Backend Developer",
     "location": "USA",
-    "url": "jobs/shopify-backend-developer.html"
+    "url": "jobs/shopify-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Shopify",
     "title": "DevOps Engineer",
     "location": "Remote",
-    "url": "jobs/shopify-devops-engineer.html"
+    "url": "jobs/shopify-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "Shopify",
     "title": "Frontend Developer",
     "location": "Europe",
-    "url": "jobs/shopify-frontend-developer.html"
+    "url": "jobs/shopify-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Shopify",
     "title": "Python Developer",
     "location": "Worldwide",
-    "url": "jobs/shopify-python-developer.html"
+    "url": "jobs/shopify-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Shopify",
     "title": "SEO Specialist",
     "location": "USA",
-    "url": "jobs/shopify-seo-specialist.html"
+    "url": "jobs/shopify-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
   },
   {
     "company": "Stripe",
     "title": "AI Engineer",
     "location": "Asia",
-    "url": "jobs/stripe-ai-engineer.html"
+    "url": "jobs/stripe-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "Stripe",
     "title": "Backend Developer",
     "location": "USA",
-    "url": "jobs/stripe-backend-developer.html"
+    "url": "jobs/stripe-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Stripe",
     "title": "DevOps Engineer",
     "location": "USA",
-    "url": "jobs/stripe-devops-engineer.html"
+    "url": "jobs/stripe-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "Stripe",
     "title": "Frontend Developer",
     "location": "Europe",
-    "url": "jobs/stripe-frontend-developer.html"
+    "url": "jobs/stripe-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Stripe",
     "title": "Python Developer",
     "location": "Remote",
-    "url": "jobs/stripe-python-developer.html"
+    "url": "jobs/stripe-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Stripe",
     "title": "SEO Specialist",
     "location": "Asia",
-    "url": "jobs/stripe-seo-specialist.html"
+    "url": "jobs/stripe-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
   },
   {
     "company": "Zapier",
     "title": "AI Engineer",
     "location": "Europe",
-    "url": "jobs/zapier-ai-engineer.html"
+    "url": "jobs/zapier-ai-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "AI"
   },
   {
     "company": "Zapier",
     "title": "Backend Developer",
     "location": "Remote",
-    "url": "jobs/zapier-backend-developer.html"
+    "url": "jobs/zapier-backend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Zapier",
     "title": "DevOps Engineer",
     "location": "Worldwide",
-    "url": "jobs/zapier-devops-engineer.html"
+    "url": "jobs/zapier-devops-engineer.html",
+    "tags": [],
+    "description": [],
+    "category": "DevOps"
   },
   {
     "company": "Zapier",
     "title": "Frontend Developer",
     "location": "Remote",
-    "url": "jobs/zapier-frontend-developer.html"
+    "url": "jobs/zapier-frontend-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Zapier",
     "title": "Python Developer",
     "location": "Worldwide",
-    "url": "jobs/zapier-python-developer.html"
+    "url": "jobs/zapier-python-developer.html",
+    "tags": [],
+    "description": [],
+    "category": "Developer"
   },
   {
     "company": "Zapier",
     "title": "SEO Specialist",
     "location": "Asia",
-    "url": "jobs/zapier-seo-specialist.html"
+    "url": "jobs/zapier-seo-specialist.html",
+    "tags": [],
+    "description": [],
+    "category": "SEO"
+  },
+  {
+    "title": "Senior Backend Engineer, Trusted Agentic Deve…（标题截断）",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 155,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8760233002",
+    "notes": "AI Agent 后端",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Backend Engineer Python, AI Engineering…（标题截断）",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 147,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8704363002",
+    "notes": "Python / AI",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Backend Engineer Ruby, AI Engineering…（标题截断）",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 147,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8620720002",
+    "notes": "Ruby / AI",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Staff Backend Engineer, Developer Experience",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 137,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8490477002",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Developer Advocate",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 105,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8838202002",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Security Detection Engineer",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 65,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8868138002",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Security Engineer, Incident Response…（标题截断）",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 65,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8815229002",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Security Risk Engineer",
+    "company": "GitLab",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 65,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8846304002",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Frontend Engineer",
+    "company": "GitLab",
+    "location": "India（远程）",
+    "job_type": "全职",
+    "score": 63,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Software Engineer, AI Agents",
+    "company": "Cloudflare",
+    "location": "Remote India",
+    "job_type": "全职",
+    "score": 147,
+    "source": "Job Monitor",
+    "url": "https://boards.greenhouse.io/cloudflare/jobs/7831810?gh_jid=7831810",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Backend Engineer Build AI Agents",
+    "company": "Salesforge",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 135,
+    "source": "Job Monitor",
+    "url": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Software Engineer / AI Code Trainer Python",
+    "company": "CodeForAI",
+    "location": "USA, UK, India 等（远程）",
+    "job_type": "全职",
+    "score": 131,
+    "source": "Job Monitor",
+    "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-code-trainer-python-web-full-stack-2091149",
+    "notes": "标题截断",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Agentic AI Design Engineer（EWOR）",
+    "company": "EWOR",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 127,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/ewor-agentic-ai-design-engineer-100-remote-m-f-d",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Backend Developer Python",
+    "company": "Proxify AB",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 135,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-10",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Software Engineer（Edfinity）",
+    "company": "Edfinity",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 125,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/edfinity-senior-software-engineer-remote",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Software Engineer, Backend",
+    "company": "Vercel",
+    "location": "Remote - United…（截断）",
+    "job_type": "全职",
+    "score": 127,
+    "source": "Job Monitor",
+    "url": "https://job-boards.greenhouse.io/vercel/jobs/5430088004",
+    "notes": "地点截断，请核实",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Shopify Developer",
+    "company": "Sanctuary Computer",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 85,
+    "source": "RemoteOK",
+    "url": "https://remoteok.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Shopify Developer",
+    "company": "Sanctuary Computer",
+    "location": "Worldwide",
+    "job_type": "全职",
+    "score": 95,
+    "source": "Job Monitor",
+    "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
+    "notes": "与上一条为同一岗位的不同来源",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Oracle Fusion Cloud Lead – Logistics & Supply Chain",
+    "company": "Tessera Labs",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 85,
+    "source": "RemoteOK",
+    "url": "https://remoteok.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Brand Success Manager - Bilingual Korean/English",
+    "company": "Faire",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 85,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/faire-senior-brand-success-manager-bilingual-korean-english",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Packaging Designer for Consumer Goods Company",
+    "company": "Pearl",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 85,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/pearl-remote-senior-packaging-designer-for-consumer-goods-company",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Freelance Brand Designer",
+    "company": "未注明（Jobicy）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 82,
+    "source": "Jobicy",
+    "url": "https://jobicy.com/jobs/154800-freelance-brand-designer-2",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Remote Office Assistant",
+    "company": "Coalition Technologies",
+    "location": "Worldwide",
+    "job_type": "全职",
+    "score": 77,
+    "source": "Remotive",
+    "url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Remote Guest Experience Specialist",
+    "company": "Essence Journey",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 67,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/essence-journey-remote-guest-experience-specialist",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Nurse Practitioner（远程，需 CT 执照）",
+    "company": "Galileo",
+    "location": "Remote（美国）",
+    "job_type": "全职",
+    "score": 67,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/galileo-nurse-practitioner-remote-ct-license-required",
+    "notes": "需美国护理执照",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Content Coordinator U.S. Based（Contractor）",
+    "company": "SimpleTiger",
+    "location": "Remote（美国）",
+    "job_type": "接单/外包",
+    "score": 73,
+    "source": "WeWorkRemotely",
+    "url": "https://weworkremotely.com/remote-jobs/simpletiger-content-coordinator-u-s-based-remote-contractor",
+    "notes": "需在美国",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Frontend Web Application Developer",
+    "company": "KoboToolbox",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 67,
+    "source": "Remotive",
+    "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Customer Support Specialist",
+    "company": "AMBOSS",
+    "location": "Berlin",
+    "job_type": "全职",
+    "score": 60,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/amboss/customer-support-specialist-berlin-57482",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Venture Developer (m/f/d)",
+    "company": "EBIT Ventures",
+    "location": "Berlin",
+    "job_type": "未标注",
+    "score": 55,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/ebit-ventures/venture-developer-berlin-415611",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Co-Founder / CXO Gründer (m/f/d)",
+    "company": "EBIT Ventures",
+    "location": "Berlin",
+    "job_type": "未标注",
+    "score": 45,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/ebit-ventures/co-founder-cxo-grunder-berlin-295744",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Development Director",
+    "company": "Crytek",
+    "location": "Frankfurt",
+    "job_type": "接单/外包/全职",
+    "score": 55,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/crytek/development-director-frankfurt-419416",
+    "notes": "游戏行业",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Partnerships Lead - AI Startup",
+    "company": "Logicc",
+    "location": "Hamburg",
+    "job_type": "实习",
+    "score": 50,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/logicc/partnerships-lead-ai-startup-hamburg-275989",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Business Data Analyst Finance & Requirements Management (m/w/d)",
+    "company": "Aer Group",
+    "location": "Berlin",
+    "job_type": "兼职/全职",
+    "score": 60,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/aer-group/business-data-analyst-finance-requirements-management-berlin-boppstr-28055",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Mobile Device Data Collection - German",
+    "company": "CrowdGen by Appen",
+    "location": "Germany（远程项目）",
+    "job_type": "接单/外包",
+    "score": 60,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/crowdgen-by-appen/mobile-device-data-collection-german-germany-455640",
+    "notes": "独立承包商，按项目计费",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Werkstudent:in Social Media Marketing (m/w/d)",
+    "company": "ZDF Digital Medienproduktion",
+    "location": "Berlin / Mainz",
+    "job_type": "兼职",
+    "score": 65,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/zdf-digital-medienproduktion-gmbh/werkstudentin-social-media-marketing-berlin-oder-mainz-86923",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Werkstudent*in Data Analytics (m/w/d)",
+    "company": "ZDF Digital Medienproduktion",
+    "location": "Mainz / Berlin",
+    "job_type": "兼职",
+    "score": 60,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/zdf-digital-medienproduktion-gmbh/werkstudentin-data-analytics-mainz-oder-berlin-484250",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Account Manager (all genders)",
+    "company": "Meteocontrol",
+    "location": "Augsburg",
+    "job_type": "接单/外包/全职",
+    "score": 65,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/meteocontrol/senior-account-manager-all-genders-augsburg-168319",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Consultant Energy Markets & Economics (all genders)",
+    "company": "Meteocontrol",
+    "location": "Berlin",
+    "job_type": "兼职/接单/外包",
+    "score": 65,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/meteocontrol/senior-consultant-energy-markets-economics-all-genders-berlin-467079",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Consultant Energy Markets & Economics (all genders)",
+    "company": "Meteocontrol",
+    "location": "Augsburg",
+    "job_type": "兼职/接单/外包",
+    "score": 65,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/meteocontrol/senior-consultant-energy-markets-economics-all-genders-augsburg-61857",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Product Engineer (Full Stack)",
+    "company": "Andercore",
+    "location": "Berlin",
+    "job_type": "接单/外包/全职",
+    "score": 90,
+    "source": "Arbeitnow",
+    "url": "https://www.arbeitnow.com/jobs/companies/andercore/senior-product-engineer-full-stack-berlin-220595",
+    "notes": "平台开发",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Project Manager",
+    "company": "Spiralyze",
+    "location": "Worldwide",
+    "job_type": "接单/外包",
+    "score": 65,
+    "source": "RemoteOK",
+    "url": "https://remoteok.com/remote-jobs/remote-project-manager-spiralyze-1137466",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Photographer（远程，土耳其）",
+    "company": "TransPerfect",
+    "location": "Remote（土耳其）",
+    "job_type": "全职",
+    "score": 100,
+    "source": "Himalayas",
+    "url": "https://himalayas.app/companies/transperfect/jobs/photographer-remote-in-turkey",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Expert Database Architect & Big Data Specialist",
+    "company": "未注明（Freelancer.com）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 100,
+    "source": "FreelancerCom",
+    "url": "https://www.freelancer.com/projects/python/Expert-Database-Architect-Big-Data.html",
+    "notes": "项目制",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Creative Video Editor & Social Media Specialist",
+    "company": "未注明（Freelancer.com）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 47,
+    "source": "FreelancerCom",
+    "url": "https://www.freelancer.com/projects/adobe-premiere-pro/Creative-Video-Editor-Social-Media.html",
+    "notes": "项目制",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Lightroom Portrait and Landscape Editing Expert",
+    "company": "未注明（Freelancer.com）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 36,
+    "source": "FreelancerCom",
+    "url": "https://www.freelancer.com/projects/adobe-lightroom/Lightroom-Portrait-landscape-Editing.html",
+    "notes": "项目制",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Transport Company Website",
+    "company": "未注明（Freelancer.com）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 36,
+    "source": "FreelancerCom",
+    "url": "https://www.freelancer.com/projects/web-design/Transport-Company-Website.html",
+    "notes": "项目制",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Responsive Vanilla JS Website Build",
+    "company": "未注明（Freelancer.com）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 36,
+    "source": "FreelancerCom",
+    "url": "https://www.freelancer.com/projects/web-development/Responsive-Vanilla-Website-Build.html",
+    "notes": "项目制",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Weekly Admin Assistance (Outlook)",
+    "company": "未注明（Freelancer.com）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 36,
+    "source": "FreelancerCom",
+    "url": "https://www.freelancer.com/projects/microsoft-outlook/Asistencia-administrativa-semanal.html",
+    "notes": "西班牙语项目",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Admin Balas Pesan Instagram",
+    "company": "未注明（Freelancer.com）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 36,
+    "source": "FreelancerCom",
+    "url": "https://www.freelancer.com/projects/customer-service/Admin-Balas-Pesan-Instagram.html",
+    "notes": "印尼语项目",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Flexible Side Gig: Community Engagement（$10/任务）",
+    "company": "未注明（Reddit 发帖人）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 59,
+    "source": "Reddit r/forhire",
+    "url": "https://www.reddit.com/r/forhire/comments/1x06kt0/hiring_flexible_side_gig_community_engagement_10/",
+    "notes": "长期兼职，约 $50–60/月",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Freelance Social Media Manager for iOS Travel Apps",
+    "company": "未注明（Reddit 发帖人）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 100,
+    "source": "Reddit r/forhire",
+    "url": "https://www.reddit.com/r/forhire/comments/1x0bnle/hiring_freelance_social_media_manager_for_ios/",
+    "notes": "$15–$35/小时",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Remote Patient Support Associate（美国，全职）",
+    "company": "未注明（Reddit 发帖人）",
+    "location": "Remote（美国）",
+    "job_type": "全职",
+    "score": 100,
+    "source": "Reddit r/forhire",
+    "url": "https://www.reddit.com/r/forhire/comments/1x0hswa/hiring_remote_patient_support_associate_usbased/",
+    "notes": "$15/小时起，需在美国",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "[HIRING] PHYSICAL THERAPISTS AROUND NEW YORK",
+    "company": "未注明（Reddit 发帖人）",
+    "location": "New York",
+    "job_type": "全职",
+    "score": 59,
+    "source": "Reddit r/forhire",
+    "url": "https://www.reddit.com/r/forhire/comments/1x00dny/hiring_physical_therapists_around_new_york/",
+    "notes": "需纽约理疗执照",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "[Hiring] US-based posters – $50/mo",
+    "company": "未注明（Reddit 发帖人）",
+    "location": "US-based",
+    "job_type": "接单/外包",
+    "score": 47,
+    "source": "Reddit r/forhire",
+    "url": "https://www.reddit.com/r/forhire/comments/1x02dx5/hiring_usbased_posters_50mo_15_minday_post/",
+    "notes": "约 15 分钟/天",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "[Hiring] YouTube thumbnail designers for B2B Finance Niche",
+    "company": "未注明（Reddit 发帖人）",
+    "location": "Remote",
+    "job_type": "接单/外包",
+    "score": 83,
+    "source": "Reddit r/forhire",
+    "url": "https://www.reddit.com/r/forhire/comments/1x02zyk/hiring_youtube_thumbnail_designers_for_b2b/",
+    "notes": "$15–$30/张",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Remote Care Coordinator, Transition of Care（双语西语）",
+    "company": "Alignment Health",
+    "location": "Remote（美国）",
+    "job_type": "全职",
+    "score": 47,
+    "source": "Himalayas",
+    "url": "https://himalayas.app/companies/alignment-health/jobs/remote-care-coordinator-transition-of-care-bilingual-spanish-1728410901",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Inorganic (AA ICP ICP-MS) Sales Specialist（南加州外勤远程）",
+    "company": "PerkinElmer",
+    "location": "Southern California（外勤）",
+    "job_type": "全职",
+    "score": 47,
+    "source": "Himalayas",
+    "url": "https://himalayas.app/companies/perkinelmer/jobs/inorganic-aa-icp-icp-ms-sales-specialist-field-remote-southern-california",
+    "notes": "需在南加州外勤",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "MIDDLE .NET DEVELOPER | REMOTE CIS",
+    "company": "IT ONE",
+    "location": "Remote（CIS）",
+    "job_type": "全职",
+    "score": 47,
+    "source": "TG-remoteit",
+    "url": "https://t.me/Remoteit/14018",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Senior Shopify Developer for an E-commerce Agency（美国远程）",
+    "company": "Paired",
+    "location": "Remote（美国）",
+    "job_type": "接单/外包",
+    "score": 59,
+    "source": "Himalayas",
+    "url": "https://himalayas.app/companies/paired-so/jobs/senior-shopify-developer-for-an-e-commerce-agency-us-based-remote",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "1155 – General Manager (Hospitality)",
+    "company": "未注明（Jobicy）",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 47,
+    "source": "Jobicy",
+    "url": "https://jobicy.com/jobs/154792-1155-general-manager-hospitality",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "1156 – Solution Architect Lead",
+    "company": "未注明（Jobicy）",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 47,
+    "source": "Jobicy",
+    "url": "https://jobicy.com/jobs/154797-1156-solution-architect-lead",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Associate Director, Paid Search B2B",
+    "company": "未注明（Jobicy）",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 47,
+    "source": "Jobicy",
+    "url": "https://jobicy.com/jobs/154782-associate-director-paid-search-b2b",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "German Speaking Customer Service for Miele（居家）",
+    "company": "Patrique Mercier Recruitment",
+    "location": "Remote",
+    "job_type": "全职",
+    "score": 35,
+    "source": "Himalayas",
+    "url": "https://himalayas.app/companies/patrique-mercier-recruitment-es/jobs/german-speaking-customer-service-for-miele-work-from-home",
+    "notes": "需德语",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "Management Contract Specialist",
+    "company": "US Federal Solutions",
+    "location": "Remote（美国）",
+    "job_type": "全职",
+    "score": 35,
+    "source": "Himalayas",
+    "url": "https://himalayas.app/companies/us-federal-solutions/jobs/management-contract-specialist",
+    "notes": "美国联邦合同，可能需安全许可",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "拓竹科技（Bambu Lab）招聘内推｜上海全职",
+    "company": "拓竹科技（Bambu Lab）",
+    "location": "上海",
+    "job_type": "全职",
+    "score": 100,
+    "source": "V2EX 酷工作",
+    "url": "https://www.v2ex.com/t/1247042#reply0",
+    "notes": "上海线下，全新 HC",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "SEO 增长专员（内容运营方向／研究执行方向）",
+    "company": "未注明（V2EX 帖）",
+    "location": "Remote",
+    "job_type": "兼职/全职",
+    "score": 100,
+    "source": "V2EX 酷工作",
+    "url": "https://www.v2ex.com/t/1246982",
+    "notes": "",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "心理咨询师（塔罗牌 / AI 陪伴产品，数据标注）",
+    "company": "上海行岚科技有限公司",
+    "location": "远程",
+    "job_type": "兼职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2084",
+    "notes": "时薪 30–50 元，月结",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "PPT 设计师",
+    "company": "南昌市青山湖区惊天网络游戏工作室",
+    "location": "远程",
+    "job_type": "兼职",
+    "score": 100,
+    "source": "远程中国（转载 智联招聘）",
+    "url": "https://remote-china.com/jobs/2083",
+    "notes": "综合月薪 7–9k，按单结算",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "论文写手（财经/科技领域）",
+    "company": "吉安卓溟科技有限公司",
+    "location": "远程",
+    "job_type": "兼职",
+    "score": 100,
+    "source": "远程中国（转载 智联招聘）",
+    "url": "https://remote-china.com/jobs/2082",
+    "notes": "15–25k",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "平安车险销售",
+    "company": "长沙甄赢科技有限公司",
+    "location": "远程",
+    "job_type": "兼职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2081",
+    "notes": "5–12k，月结，公司提供客源",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "酒店客户经理",
+    "company": "深圳红楼二梦科技有限公司",
+    "location": "远程",
+    "job_type": "兼职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2080",
+    "notes": "6–10k",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "教培项目经理",
+    "company": "上海领研未来智能科技有限公司",
+    "location": "远程",
+    "job_type": "全职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2078",
+    "notes": "12–24k",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "海外猎头",
+    "company": "先路（北京）国际咨询有限公司",
+    "location": "远程",
+    "job_type": "兼职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2076",
+    "notes": "9–14k，需英语经验",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "家教老师（小初高全科）",
+    "company": "湖南会想网络科技有限公司",
+    "location": "远程",
+    "job_type": "兼职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2074",
+    "notes": "时薪 50–300 元，日结",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "招聘专员",
+    "company": "端也智能科技（上海）有限公司",
+    "location": "远程",
+    "job_type": "全职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2073",
+    "notes": "6–7K，有社保",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "运维工程师",
+    "company": "未注明（猎聘）",
+    "location": "远程",
+    "job_type": "全职",
+    "score": 100,
+    "source": "远程中国（转载 猎聘）",
+    "url": "https://remote-china.com/jobs/2077",
+    "notes": "20–40k，Shell/Python/Java",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "全栈开发（AI 产品后端）",
+    "company": "矩阵魔方（上海）人工智能科技有限公司",
+    "location": "远程",
+    "job_type": "全职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2075",
+    "notes": "13–18K，Next.js/Supabase/TypeScript，有出海经验优先",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "海外社媒内容运营（澳洲业务）",
+    "company": "北京易才人力资源顾问有限公司",
+    "location": "远程",
+    "job_type": "全职",
+    "score": 100,
+    "source": "远程中国（转载 智联招聘）",
+    "url": "https://remote-china.com/jobs/2079",
+    "notes": "6–12k，需英语阅读",
+    "added_at": "2026-10-09"
+  },
+  {
+    "title": "项目运营助理（澳洲业务）",
+    "company": "上海秉丰股权投资基金有限公司",
+    "location": "远程",
+    "job_type": "全职",
+    "score": 100,
+    "source": "远程中国（转载 BOSS直聘）",
+    "url": "https://remote-china.com/jobs/2072",
+    "notes": "6–8K，需粤语与英语读写",
+    "added_at": "2026-10-09"
   }
 ]

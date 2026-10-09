@@ -31,6 +31,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://openjobs.genedai.me/categories/other.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://openjobs.genedai.me/jobs/automattic-ai-engineer.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>

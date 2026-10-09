@@ -1,29 +1,37 @@
 {
-  "total_jobs": 48,
-  "total_companies": 8,
-  "total_locations": 5,
+  "total_jobs": 127,
+  "total_companies": 58,
+  "total_locations": 24,
   "top_companies": {
+    "GitLab": 15,
+    "Cloudflare": 7,
+    "未注明（Freelancer.com）": 7,
     "Automattic": 6,
-    "Cloudflare": 6,
-    "GitLab": 6,
     "Notion": 6,
     "OpenAI": 6,
     "Shopify": 6,
     "Stripe": 6,
-    "Zapier": 6
+    "Zapier": 6,
+    "未注明（Reddit 发帖人）": 6
   },
   "categories": {
-    "AI": 8,
-    "Developer": 24,
-    "DevOps": 8,
-    "SEO": 8
+    "Other": 47,
+    "Developer": 41,
+    "AI": 17,
+    "DevOps": 9,
+    "SEO": 13
   },
   "top_locations": {
+    "Remote": 41,
+    "Worldwide": 13,
     "Europe": 13,
+    "远程": 13,
     "USA": 12,
-    "Worldwide": 10,
-    "Remote": 7,
-    "Asia": 6
+    "Berlin": 6,
+    "Remote（美国）": 6,
+    "Asia": 6,
+    "Augsburg": 2,
+    "Remote India": 1
   },
-  "updated_at": "2026-10-09T11:03:35+00:00"
+  "updated_at": "2026-10-09T11:13:02+00:00"
 }

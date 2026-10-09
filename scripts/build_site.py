@@ -59,11 +59,11 @@ OPTIONAL_TEXT_FIELDS = ("salary", "industry", "apply_url", "added_at", "job_type
 # "engineer"/"developer" rule.
 # (key, slug, Chinese label, pattern)
 CATEGORIES = [
-    ("AI", "ai", "AI 相关", re.compile(r"\b(ai|ml|machine learning|data scientist|llm)\b", re.I)),
-    ("DevOps", "devops", "DevOps", re.compile(r"\b(devops|sre|infrastructure|platform)\b", re.I)),
-    ("SEO", "seo", "SEO / 营销", re.compile(r"\b(seo|marketing|content)\b", re.I)),
+    ("AI", "ai", "AI 相关", re.compile(r"\b(ai|ml|machine learning|data scientist|llm)\b|人工智能|算法|机器学习|大模型", re.I)),
+    ("DevOps", "devops", "DevOps", re.compile(r"\b(devops|sre|infrastructure|platform)\b|运维", re.I)),
+    ("SEO", "seo", "SEO / 营销", re.compile(r"\b(seo|marketing|content)\b|营销|运营|内容|文案|增长", re.I)),
     ("Developer", "developer", "开发者", re.compile(
-        r"\b(frontend|backend|fullstack|full stack|python|software|engineer|developer)\b", re.I)),
+        r"\b(frontend|backend|fullstack|full stack|python|software|engineer|developer)\b|开发|工程师|程序员|架构", re.I)),
     ("Other", "other", "其他", None),
 ]
 CATEGORY_LABEL = {key: label for key, _, label, _ in CATEGORIES}
