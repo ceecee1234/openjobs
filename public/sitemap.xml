@@ -1,186 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://openjobs.genedai.me/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?category=Engineering</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?category=Healthcare</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?category=Sales</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?category=Finance</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?category=Management</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?category=Marketing</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?category=HR</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/?category=Operations</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openjobs.genedai.me/rss.xml</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://openjobs.genedai.me/jobs/automattic-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=addus-homecare</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/automattic-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=cvs-health</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/automattic-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=jobot</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/automattic-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=townsquare-media</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/automattic-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=varsity-tutors%2C-a-nerdy-company</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/automattic-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=dignity-health</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/cloudflare-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=amazon</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/cloudflare-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=uvm-health</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/cloudflare-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=nvent</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/cloudflare-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?company=pbk</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/cloudflare-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=southwest-medical-center-at-integris-health</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/cloudflare-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=champlain-valley-physicians-hospital</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/gitlab-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=uvm-medical-center</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/gitlab-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=float-at-select-medical</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/gitlab-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=the-brand-of-wlssd</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/gitlab-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=an-addus-homecare-company</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/gitlab-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=tti</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/gitlab-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=%242%2C308-per-week-at-malone-healthcare-solutions</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/notion-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=p5-group</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/notion-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openjobs.genedai.me/?location=full-time-8-hour-days-%28non-exempt%29-%28non-union%29-at-keck-medicine-of-usc</loc>
-    <lastmod>2026-03-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://openjobs.genedai.me/jobs/notion-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/notion-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/notion-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/notion-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/openai-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/openai-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/openai-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/openai-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/openai-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/openai-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/shopify-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/shopify-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/shopify-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/shopify-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/shopify-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/shopify-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/stripe-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/stripe-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/stripe-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/stripe-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/stripe-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/stripe-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/zapier-ai-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/zapier-backend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/zapier-devops-engineer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/zapier-frontend-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/zapier-python-developer.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://openjobs.genedai.me/jobs/zapier-seo-specialist.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

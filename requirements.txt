@@ -1,5 +1,8 @@
-# OpenJobs Dependencies
-Pillow>=10.0.0  # For generating og-image.png
+# Runtime dependencies for scripts/update_jobs.py
+requests>=2.31.0
+
+# Optional: used only to regenerate og-image.png locally
+# Pillow>=10.0.0
 
 # For development/testing (optional):
 # pytest>=7.0.0

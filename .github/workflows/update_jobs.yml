@@ -1,22 +1,46 @@
 name: Update Jobs
+
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天 UTC 00:00 自动运行
-  workflow_dispatch: # 手动触发
+    - cron: "0 */6 * * *" # every 6 hours (UTC)
+  workflow_dispatch: # manual trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-jobs
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+
       - name: Install dependencies
-        run: pip install requests
-      - name: Run Update Script
+        run: pip install -r requirements.txt
+
+      - name: Update jobs and rebuild site
         run: python scripts/update_jobs.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A public README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update jobs $(date -u +%Y-%m-%d)"
+            git push
+          fi

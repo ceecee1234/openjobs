@@ -1,53 +1,103 @@
+"""Fetch new jobs, merge them into ``public/jobs.json`` and rebuild the site.
+
+Pipeline:
+  1. ``fetch_new_jobs()`` collects candidate jobs from the configured sources.
+  2. New jobs (by URL) are appended to ``public/jobs.json``.
+  3. Each new job is announced on Telegram if credentials are configured.
+  4. ``build_site.build()`` regenerates every derived file.
+
+Environment variables (optional):
+  TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID  – enable Telegram notifications.
+"""
+
+from __future__ import annotations
+
 import json
 import os
+import sys
+from pathlib import Path
+
 import requests
 
-# -------------------------------
-# 模拟抓取职位（零API版）
-# -------------------------------
-jobs = [
-    {"title":"Python 数据标注员", "company":"OpenAI", "location":"Remote", "url":"https://example.com/job1", "source":"手动添加"},
-    {"title":"AI 内容审核", "company":"DeepMind", "location":"Remote", "url":"https://example.com/job2", "source":"手动添加"}
-]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-# -------------------------------
-# 历史职位去重
-# -------------------------------
-jobs_file = "../jobs/jobs.json"
-os.makedirs(os.path.dirname(jobs_file), exist_ok=True)
+import build_site  # noqa: E402  (needs the sys.path tweak above)
 
-if not os.path.exists(jobs_file):
-    history = []
-else:
-    with open(jobs_file, "r", encoding="utf-8") as f:
-        history = json.load(f)
+TELEGRAM_TIMEOUT = 10  # seconds
+SOURCES: list = []  # add fetcher callables here: each returns list[dict]
 
-new_jobs = []
-for job in jobs:
-    if job["url"] not in [h["url"] for h in history]:
-        new_jobs.append(job)
-        history.append(job)
 
-# -------------------------------
-# 保存历史职位
-# -------------------------------
-with open(jobs_file, "w", encoding="utf-8") as f:
-    json.dump(history, f, ensure_ascii=False, indent=2)
+def fetch_new_jobs() -> list[dict]:
+    """Collect candidate jobs from every registered source.
 
-print(f"✅ 本次新增职位数量: {len(new_jobs)}")
+    No live source is wired up yet, so this returns nothing and the job
+    list is left unchanged. Add a fetcher to ``SOURCES`` to enable one.
+    """
+    candidates: list[dict] = []
+    for source in SOURCES:
+        try:
+            candidates.extend(source())
+        except Exception as exc:  # one broken source must not stop the run
+            print(f"⚠️ source {getattr(source, '__name__', source)} failed: {exc}", file=sys.stderr)
+    return candidates
 
-# -------------------------------
-# Telegram 推送
-# -------------------------------
-def send_telegram(job):
+
+def merge(existing: list[dict], candidates: list[dict]) -> list[dict]:
+    """Return the jobs that are new (by URL) and not already stored."""
+    known = {j["url"] for j in existing}
+    new_jobs: list[dict] = []
+    for job in candidates:
+        url = str(job.get("url", "")).strip()
+        if url and url not in known:
+            known.add(url)
+            new_jobs.append(job)
+    return new_jobs
+
+
+def notify_telegram(job: dict) -> None:
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat_id:
-        print("⚠️ Telegram token or chat_id not set")
         return
-    text = f"🔥 New Job\n\nCompany: {job['company']}\nPosition: {job['title']}\nLocation: {job['location']}\nLink: {job['url']}\nSource: {job['source']}"
-    url = f"https://api.telegram.org/bot{token}/sendMessage"
-    requests.get(url, params={"chat_id": chat_id, "text": text})
+    text = (
+        "🔥 New Job\n\n"
+        f"Company: {job['company']}\n"
+        f"Position: {job['title']}\n"
+        f"Location: {job['location']}\n"
+        f"Link: {job['url']}"
+    )
+    # Token is sent in the URL path as required by the Bot API; never log it.
+    try:
+        resp = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": text, "disable_web_page_preview": True},
+            timeout=TELEGRAM_TIMEOUT,
+        )
+        resp.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"⚠️ Telegram notification failed for {job['url']}: {type(exc).__name__}", file=sys.stderr)
 
-for job in new_jobs:
-    send_telegram(job)
+
+def main() -> int:
+    jobs_file = build_site.JOBS_FILE
+    existing = build_site.load_jobs(jobs_file) if jobs_file.exists() else []
+
+    new_jobs = merge(existing, fetch_new_jobs())
+    print(f"✅ new jobs this run: {len(new_jobs)}")
+    if not new_jobs:
+        # Nothing changed: skip the rebuild so generated files (which embed
+        # timestamps) stay byte-identical and no empty commit is created.
+        return 0
+
+    combined = existing + new_jobs
+    build_site.atomic_write(jobs_file, json.dumps(combined, ensure_ascii=False, indent=2) + "\n")
+
+    for job in new_jobs:
+        notify_telegram(job)
+
+    build_site.build()
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

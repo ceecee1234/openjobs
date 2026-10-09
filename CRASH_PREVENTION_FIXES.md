@@ -1,3 +1,5 @@
+> ⚠️ **注意（2026-10）**：本文档描述的 `scripts/update_readme.py` 已被移除，其备份/原子写入等功能并未存在于当前代码中。当前的构建流程见 `scripts/build_site.py` 与 `scripts/update_jobs.py`，原子写入由 `build_site.atomic_write` 提供。以下内容仅作历史记录。
+
 # 崩溃预防修复总结 (Crash Prevention Fixes Summary)
 
 ## 📅 修复日期

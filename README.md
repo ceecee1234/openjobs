@@ -1,38 +1,43 @@
 # 🚀 AI Remote Jobs Daily
 
-Last Update: 2026-06-12 09:52:03.886473 UTC
+Last Update: 2026-10-09 09:35:46 UTC
+
+Total: **48** jobs from **8** companies.
 
 ## 🔥 Latest Remote Jobs
 
 | Company | Position | Location |
 |---|---|---|
-| Shopify | [Backend Developer](jobs/shopify-backend-developer.html) | USA |
-| Notion | [SEO Specialist](jobs/notion-seo-specialist.html) | Worldwide |
-| Notion | [Python Developer](jobs/notion-python-developer.html) | Europe |
-| OpenAI | [AI Engineer](jobs/openai-ai-engineer.html) | Asia |
-| OpenAI | [SEO Specialist](jobs/openai-seo-specialist.html) | Worldwide |
-| Stripe | [DevOps Engineer](jobs/stripe-devops-engineer.html) | USA |
-| Cloudflare | [DevOps Engineer](jobs/cloudflare-devops-engineer.html) | Remote |
-| Automattic | [AI Engineer](jobs/automattic-ai-engineer.html) | Worldwide |
-| Zapier | [Python Developer](jobs/zapier-python-developer.html) | Remote |
-| Zapier | [SEO Specialist](jobs/zapier-seo-specialist.html) | Asia |
-| Shopify | [SEO Specialist](jobs/shopify-seo-specialist.html) | Europe |
-| Zapier | [Python Developer](jobs/zapier-python-developer.html) | Worldwide |
-| Automattic | [DevOps Engineer](jobs/automattic-devops-engineer.html) | Asia |
-| Stripe | [Frontend Developer](jobs/stripe-frontend-developer.html) | Europe |
-| Stripe | [AI Engineer](jobs/stripe-ai-engineer.html) | Asia |
-| Cloudflare | [AI Engineer](jobs/cloudflare-ai-engineer.html) | Remote |
-| Automattic | [SEO Specialist](jobs/automattic-seo-specialist.html) | Europe |
-| Shopify | [SEO Specialist](jobs/shopify-seo-specialist.html) | USA |
-| Stripe | [AI Engineer](jobs/stripe-ai-engineer.html) | Asia |
-| Shopify | [AI Engineer](jobs/shopify-ai-engineer.html) | USA |
+| Automattic | [AI Engineer](public/jobs/automattic-ai-engineer.html) | Worldwide |
+| Automattic | [Backend Developer](public/jobs/automattic-backend-developer.html) | USA |
+| Automattic | [DevOps Engineer](public/jobs/automattic-devops-engineer.html) | Asia |
+| Automattic | [Frontend Developer](public/jobs/automattic-frontend-developer.html) | Worldwide |
+| Automattic | [Python Developer](public/jobs/automattic-python-developer.html) | USA |
+| Automattic | [SEO Specialist](public/jobs/automattic-seo-specialist.html) | Europe |
+| Cloudflare | [AI Engineer](public/jobs/cloudflare-ai-engineer.html) | Remote |
+| Cloudflare | [Backend Developer](public/jobs/cloudflare-backend-developer.html) | Worldwide |
+| Cloudflare | [DevOps Engineer](public/jobs/cloudflare-devops-engineer.html) | Remote |
+| Cloudflare | [Frontend Developer](public/jobs/cloudflare-frontend-developer.html) | USA |
+| Cloudflare | [Python Developer](public/jobs/cloudflare-python-developer.html) | USA |
+| Cloudflare | [SEO Specialist](public/jobs/cloudflare-seo-specialist.html) | Europe |
+| GitLab | [AI Engineer](public/jobs/gitlab-ai-engineer.html) | Europe |
+| GitLab | [Backend Developer](public/jobs/gitlab-backend-developer.html) | Europe |
+| GitLab | [DevOps Engineer](public/jobs/gitlab-devops-engineer.html) | Worldwide |
+| GitLab | [Frontend Developer](public/jobs/gitlab-frontend-developer.html) | Europe |
+| GitLab | [Python Developer](public/jobs/gitlab-python-developer.html) | Europe |
+| GitLab | [SEO Specialist](public/jobs/gitlab-seo-specialist.html) | Remote |
+| Notion | [AI Engineer](public/jobs/notion-ai-engineer.html) | USA |
+| Notion | [Backend Developer](public/jobs/notion-backend-developer.html) | Europe |
 
 ---
 
 ## 🌍 About
 
-This website automatically updates remote jobs every few hours using GitHub Actions.
+This site updates remote jobs automatically with GitHub Actions. The web app lives in [`public/`](public/).
 
-## 📩 Telegram Channel
+## 🛠 Development
 
-Coming Soon...
+```bash
+python scripts/build_site.py   # rebuild all generated files
+python scripts/update_jobs.py  # fetch new jobs, then rebuild
+```
