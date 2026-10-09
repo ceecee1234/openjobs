@@ -52,7 +52,7 @@ REPO_URL = "https://github.com/ceecee1234/openjobs"
 README_JOB_LIMIT = 20
 RSS_ITEM_LIMIT = 50
 REQUIRED_FIELDS = ("company", "title", "location", "url")
-OPTIONAL_TEXT_FIELDS = ("salary", "industry", "apply_url", "added_at")
+OPTIONAL_TEXT_FIELDS = ("salary", "industry", "apply_url", "added_at", "job_type", "score", "source")
 
 # Keep in sync with CATEGORIES in public/index.html. Order matters: the first
 # match wins, so specific roles (DevOps, SEO) must come before the generic
@@ -272,6 +272,8 @@ def render_detail(job: dict, jobs: list[dict]) -> str:
     root = "../"
     meta = [f'<span class="tag">{esc(CATEGORY_LABEL[job["category"]])}</span>',
             f'<span class="tag loc">📍 {esc(job["location"])}</span>']
+    if job.get("job_type"):
+        meta.insert(0, f'<span class="tag">{esc(job["job_type"])}</span>')
     if job.get("salary"):
         meta.insert(0, f'<span class="tag salary">💰 {esc(job["salary"])}</span>')
     meta += [f'<span class="tag">#{esc(t)}</span>' for t in job["tags"]]

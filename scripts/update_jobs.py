@@ -25,7 +25,27 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_site  # noqa: E402  (needs the sys.path tweak above)
 
 TELEGRAM_TIMEOUT = 10  # seconds
-SOURCES: list = []  # add fetcher callables here: each returns list[dict]
+LEADS_DIR = build_site.ROOT / "data" / "leads"
+
+
+def load_leads() -> list[dict]:
+    """Publishable leads: records from data/leads/*.json that have a URL.
+
+    Leads without a URL (``"url": null``) are kept for follow-up and never
+    published, so no link is ever invented.
+    """
+    out: list[dict] = []
+    if not LEADS_DIR.exists():
+        return out
+    for path in sorted(LEADS_DIR.glob("*.json")):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        for item in data.get("leads", []):
+            if str(item.get("url") or "").strip():
+                out.append({k: item[k] for k in item if k not in ("status",)})
+    return out
+
+
+SOURCES: list = [load_leads]  # add fetcher callables here: each returns list[dict]
 
 
 def fetch_new_jobs() -> list[dict]:
