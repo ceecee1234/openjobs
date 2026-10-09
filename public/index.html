@@ -3,165 +3,153 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 远程职位 · OpenJobs</title>
-<meta name="description" content="精选来自顶级科技公司的 AI 与远程工作机会，每日更新。">
+<title>AI 远程职位 · 每日精选 | OpenJobs</title>
+<meta name="description" content="每日精选来自知名科技公司的 AI、开发、DevOps 与营销远程职位，支持按公司、地点、方向筛选，附带原始链接。">
 <meta name="theme-color" content="#0f172a">
 <link rel="canonical" href="https://openjobs.genedai.me/">
 <link rel="alternate" type="application/rss+xml" title="OpenJobs RSS" href="rss.xml">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="AI 远程职位 · 每日精选 | OpenJobs">
+<meta property="og:description" content="每日精选知名科技公司的远程职位，按公司、地点、方向快速筛选。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://openjobs.genedai.me/">
+<meta property="og:image" content="https://openjobs.genedai.me/og-image.svg">
 <style>
   :root {
-    --primary: #6366f1;
-    --secondary: #0ea5e9;
-    --bg: #0f172a;
-    --bg-elev: #1e293b;
-    --bg-hover: #273449;
-    --border: #334155;
-    --text: #f8fafc;
-    --muted: #94a3b8;
+    --primary: #6366f1; --primary-2: #8b5cf6; --accent: #ec4899; --secondary: #0ea5e9;
+    --bg: #0f172a; --bg-elev: #1e293b; --bg-hover: #26344b; --border: #334155;
+    --text: #f8fafc; --muted: #94a3b8; --faint: #64748b;
+    --success: #22c55e; --warn: #f59e0b;
     --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
-    --radius: 14px;
-    --focus: 0 0 0 3px rgba(99, 102, 241, .45);
+    --radius: 14px; --focus: 0 0 0 3px rgba(99, 102, 241, .45);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans SC', 'Helvetica Neue', sans-serif;
     background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh;
-    background-image: radial-gradient(ellipse at top, rgba(99, 102, 241, .14), transparent 60%);
+    background-image: radial-gradient(ellipse at top, rgba(99, 102, 241, .14), transparent 55%);
     background-repeat: no-repeat;
   }
   a { color: inherit; }
-  button, select, input { font: inherit; color: inherit; }
+  button, select, input, summary { font: inherit; color: inherit; }
   :focus-visible { outline: none; box-shadow: var(--focus); border-radius: 8px; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-
   .container { max-width: 1200px; margin: 0 auto; padding: 0 1.25rem; }
 
   /* Header */
-  header {
-    position: sticky; top: 0; z-index: 50;
-    background: rgba(15, 23, 42, .85); backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-  }
-  .header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-  .logo { display: flex; align-items: center; gap: .6rem; font-weight: 700; text-decoration: none; }
-  .logo-mark {
-    width: 34px; height: 34px; border-radius: 10px; background: var(--gradient);
-    display: grid; place-items: center; font-size: 1.05rem;
-  }
-  nav { display: flex; gap: 1.5rem; }
+  header { position: sticky; top: 0; z-index: 50; background: rgba(15, 23, 42, .85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 62px; }
+  .logo { display: flex; align-items: center; gap: .6rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
+  .logo-mark { width: 32px; height: 32px; border-radius: 9px; background: var(--gradient); display: grid; place-items: center; }
+  nav { display: flex; align-items: center; gap: 1.25rem; }
   nav a { color: var(--muted); text-decoration: none; font-size: .9rem; font-weight: 500; }
   nav a:hover { color: var(--text); }
+  .btn-sm { background: var(--gradient); color: #fff !important; padding: .5rem .95rem; border-radius: 9px; font-weight: 600; }
+  .btn-sm:hover { opacity: .9; }
 
   /* Hero */
-  .hero { padding: 3.5rem 0 2rem; text-align: center; }
-  .hero h1 {
-    font-size: clamp(1.9rem, 4.5vw, 3rem); font-weight: 800; letter-spacing: -.02em;
-    background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent;
-  }
-  .hero p { color: var(--muted); max-width: 620px; margin: .9rem auto 0; font-size: 1.05rem; }
-  .stats { display: flex; justify-content: center; gap: clamp(1.5rem, 5vw, 3.5rem); margin-top: 2rem; flex-wrap: wrap; }
-  .stat-number { font-size: 1.8rem; font-weight: 700; color: #a5b4fc; font-variant-numeric: tabular-nums; }
-  .stat-label { font-size: .8rem; color: var(--muted); }
-
-  /* Toolbar */
-  .toolbar {
-    background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 1rem; box-shadow: 0 25px 50px -20px rgba(0, 0, 0, .6);
-    display: grid; gap: .75rem;
-    grid-template-columns: 2fr repeat(3, minmax(0, 1fr));
-  }
-  .field {
-    width: 100%; background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
-    padding: .7rem .9rem; font-size: .95rem; transition: border-color .2s;
-  }
-  .field:focus { border-color: var(--primary); outline: none; box-shadow: var(--focus); }
-  .field::placeholder { color: #64748b; }
-  select.field { appearance: none; cursor: pointer; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 16px) 50%, calc(100% - 11px) 50%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 2rem; }
-
-  .chips { grid-column: 1 / -1; display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; padding-top: .75rem; border-top: 1px solid var(--border); }
-  .chip {
-    background: transparent; border: 1px solid var(--border); color: var(--muted);
-    padding: .4rem .85rem; border-radius: 999px; cursor: pointer; font-size: .85rem; transition: all .2s;
-  }
+  .hero { padding: 3rem 0 1.5rem; text-align: center; }
+  .hero h1 { font-size: clamp(1.9rem, 4.2vw, 2.9rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.2;
+    background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero > .container > p { color: var(--muted); max-width: 640px; margin: .9rem auto 0; font-size: 1.02rem; }
+  .hero-search { display: flex; max-width: 680px; margin: 1.75rem auto 0; background: var(--bg-elev); border: 1px solid var(--border); border-radius: 14px; padding: .4rem; box-shadow: 0 25px 50px -20px rgba(0,0,0,.6); }
+  .hero-search input { flex: 1; min-width: 0; background: transparent; border: none; padding: .7rem .9rem; font-size: 1rem; outline: none; }
+  .hero-search input::placeholder { color: var(--faint); }
+  .hero-search:focus-within { border-color: var(--primary); box-shadow: var(--focus); }
+  .hero-search button { background: var(--gradient); border: none; color: #fff; font-weight: 600; padding: .7rem 1.3rem; border-radius: 10px; cursor: pointer; }
+  .hot { display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; margin-top: 1.1rem; }
+  .hot-label { color: var(--faint); font-size: .85rem; align-self: center; margin-right: .2rem; }
+  .chip { background: transparent; border: 1px solid var(--border); color: var(--muted); padding: .38rem .85rem; border-radius: 999px; cursor: pointer; font-size: .85rem; transition: all .2s; white-space: nowrap; }
   .chip:hover { color: var(--text); border-color: var(--primary); }
   .chip[aria-pressed="true"] { background: var(--primary); border-color: var(--primary); color: #fff; }
-  .chip .count { opacity: .7; margin-left: .3rem; font-variant-numeric: tabular-nums; }
-  .reset { margin-left: auto; background: none; border: none; color: var(--secondary); cursor: pointer; font-size: .85rem; padding: .4rem; }
+  .chip .n { opacity: .65; margin-left: .3rem; font-variant-numeric: tabular-nums; }
+  .stats-line { color: var(--muted); font-size: .9rem; margin-top: 1.25rem; }
+  .stats-line b { color: #c7d2fe; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  /* Layout */
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 1.5rem; align-items: start; padding-bottom: 2rem; }
+  .panel { background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius); }
+
+  /* Toolbar */
+  .toolbar { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; padding: .9rem 1rem; border-bottom: 1px solid var(--border); }
+  .toolbar h2 { font-size: 1.05rem; font-weight: 700; margin-right: auto; }
+  .count { color: var(--muted); font-size: .85rem; }
+  .field { background: var(--bg); border: 1px solid var(--border); border-radius: 9px; padding: .45rem .75rem; font-size: .88rem; cursor: pointer; max-width: 200px; }
+  select.field { appearance: none; padding-right: 1.9rem; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 15px) 52%, calc(100% - 10px) 52%; background-size: 5px 5px; background-repeat: no-repeat; }
+  .field:focus { border-color: var(--primary); outline: none; box-shadow: var(--focus); }
+  .reset { background: none; border: none; color: var(--secondary); cursor: pointer; font-size: .85rem; padding: .3rem; }
   .reset[hidden] { display: none; }
 
-  /* Results */
-  main { padding: 2.5rem 0 1rem; }
-  .results-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.25rem; gap: 1rem; flex-wrap: wrap; }
-  .results-head h2 { font-size: 1.35rem; font-weight: 700; }
-  .results-count { color: var(--muted); font-size: .9rem; }
-
-  .jobs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 1.1rem; }
-  .job-card {
-    display: flex; flex-direction: column; gap: .9rem;
-    background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 1.25rem; text-decoration: none; transition: transform .2s, border-color .2s, background .2s, box-shadow .2s;
-  }
-  .job-card:hover { background: var(--bg-hover); border-color: var(--primary); transform: translateY(-3px); box-shadow: 0 18px 36px -16px rgba(99, 102, 241, .35); }
-  .job-top { display: flex; gap: .85rem; align-items: center; min-width: 0; }
-  .avatar {
-    width: 44px; height: 44px; border-radius: 12px; flex: none; display: grid; place-items: center;
-    font-weight: 700; color: #fff; font-size: 1.05rem;
-  }
-  .job-title { font-weight: 600; font-size: 1.02rem; line-height: 1.35; overflow-wrap: anywhere; }
-  .job-company { color: var(--muted); font-size: .88rem; margin-top: .15rem; }
-  .job-tags { display: flex; gap: .45rem; flex-wrap: wrap; margin-top: auto; }
-  .tag { font-size: .75rem; font-weight: 500; padding: .3rem .6rem; border-radius: 6px; background: rgba(99, 102, 241, .12); color: #a5b4fc; }
-  .tag.loc { background: rgba(14, 165, 233, .12); color: #7dd3fc; }
-  .job-foot { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border); padding-top: .8rem; font-size: .85rem; color: var(--muted); }
-  .job-cta { color: #c4b5fd; font-weight: 600; }
-
-  .state { grid-column: 1 / -1; text-align: center; padding: 3.5rem 1rem; color: var(--muted); }
-  .state .icon { font-size: 2.2rem; margin-bottom: .5rem; }
-  .state button { margin-top: 1rem; }
-  .skeleton { height: 150px; border-radius: var(--radius); background: linear-gradient(90deg, var(--bg-elev) 25%, var(--bg-hover) 50%, var(--bg-elev) 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; border: 1px solid var(--border); }
+  /* Job rows */
+  .rows { list-style: none; }
+  .row { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 1rem; align-items: center; padding: 1rem; border-bottom: 1px solid var(--border); text-decoration: none; transition: background .15s; }
+  .rows li:last-child .row { border-bottom: none; }
+  .row:hover { background: var(--bg-hover); }
+  .row-date { color: var(--faint); font-size: .8rem; text-align: center; font-variant-numeric: tabular-nums; line-height: 1.3; }
+  .row-date b { display: block; color: var(--muted); font-size: 1rem; font-weight: 600; }
+  .row-title { font-weight: 600; font-size: 1rem; overflow-wrap: anywhere; }
+  .row:hover .row-title { color: #c4b5fd; }
+  .row-sub { color: var(--muted); font-size: .86rem; margin-top: .1rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .row-tags { display: flex; gap: .4rem; flex-wrap: wrap; justify-content: flex-end; max-width: 240px; }
+  .tag { font-size: .74rem; font-weight: 500; padding: .25rem .55rem; border-radius: 6px; background: rgba(99,102,241,.14); color: #a5b4fc; white-space: nowrap; }
+  .tag.loc { background: rgba(14,165,233,.13); color: #7dd3fc; }
+  .tag.salary { background: rgba(34,197,94,.13); color: #86efac; }
+  .empty { padding: 3rem 1rem; text-align: center; color: var(--muted); }
+  .empty button { margin-top: .9rem; }
+  .skel { height: 66px; border-bottom: 1px solid var(--border); background: linear-gradient(90deg, transparent, rgba(148,163,184,.06), transparent); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
   @keyframes shimmer { to { background-position: -200% 0; } }
-
-  .btn {
-    background: var(--gradient); border: none; color: #fff; font-weight: 600; cursor: pointer;
-    padding: .7rem 1.5rem; border-radius: 10px; transition: opacity .2s;
-  }
+  .more { display: flex; justify-content: center; padding: 1.2rem; }
+  .btn { background: var(--gradient); border: none; color: #fff; font-weight: 600; cursor: pointer; padding: .65rem 1.4rem; border-radius: 10px; }
   .btn:hover { opacity: .9; }
-  .more { display: flex; justify-content: center; margin-top: 2rem; }
   .more[hidden] { display: none; }
 
-  /* Companies */
-  .companies { padding: 3rem 0 1rem; }
-  .companies h2 { font-size: 1.35rem; font-weight: 700; margin-bottom: 1.25rem; }
-  .companies-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: .85rem; }
-  .company-card {
-    display: flex; align-items: center; gap: .75rem; text-align: left; cursor: pointer;
-    background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px; padding: .8rem .9rem; transition: border-color .2s, transform .2s;
-  }
-  .company-card:hover { border-color: var(--primary); transform: translateY(-2px); }
-  .company-card .avatar { width: 36px; height: 36px; font-size: .9rem; border-radius: 10px; }
-  .company-name { font-weight: 600; font-size: .92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .company-meta { font-size: .78rem; color: var(--muted); }
+  /* Sidebar */
+  aside { display: grid; gap: 1rem; position: sticky; top: 82px; }
+  .box { padding: 1.1rem 1.15rem; }
+  .box h3 { font-size: .95rem; font-weight: 700; margin-bottom: .6rem; }
+  .box p, .box li { color: var(--muted); font-size: .86rem; }
+  .box ul { padding-left: 1.1rem; }
+  .box li { margin: .3rem 0; }
+  .submit { background: linear-gradient(160deg, rgba(99,102,241,.25), rgba(236,72,153,.15)); border-color: rgba(139,92,246,.45); }
+  .submit p { margin-bottom: .8rem; }
+  .submit a.btn { display: block; text-align: center; text-decoration: none; }
+  .co-list { list-style: none; padding: 0; display: grid; gap: .3rem; }
+  .co-list button { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: .5rem; background: none; border: none; cursor: pointer; padding: .42rem .45rem; border-radius: 8px; text-align: left; color: var(--text); font-size: .9rem; }
+  .co-list button:hover { background: var(--bg-hover); }
+  .co-list .n { color: var(--faint); font-size: .8rem; font-variant-numeric: tabular-nums; }
+  .faq details { border-top: 1px solid var(--border); padding: .65rem 0; }
+  .faq details:first-of-type { border-top: none; padding-top: 0; }
+  .faq summary { cursor: pointer; font-weight: 600; font-size: .9rem; list-style: none; display: flex; justify-content: space-between; gap: .5rem; }
+  .faq summary::after { content: "+"; color: var(--faint); }
+  .faq details[open] summary::after { content: "−"; }
+  .faq details p { margin-top: .5rem; }
+  .links { display: flex; gap: .6rem; flex-wrap: wrap; }
+  .links a { font-size: .85rem; color: #c4b5fd; text-decoration: none; }
+  .links a:hover { text-decoration: underline; }
 
-  footer { margin-top: 3.5rem; border-top: 1px solid var(--border); padding: 2rem 0; color: var(--muted); font-size: .85rem; }
+  /* Footer */
+  footer { border-top: 1px solid var(--border); padding: 2rem 0; color: var(--muted); font-size: .85rem; }
   .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
-  .footer-inner a { color: var(--muted); text-decoration: none; margin-left: 1.2rem; }
+  .footer-inner a { color: var(--muted); text-decoration: none; margin-left: 1.1rem; }
   .footer-inner a:hover { color: var(--text); }
+  .disclaimer { color: var(--faint); font-size: .8rem; max-width: 700px; margin-top: .5rem; }
 
-  @media (max-width: 860px) {
-    .toolbar { grid-template-columns: 1fr 1fr; }
-    .toolbar .search { grid-column: 1 / -1; }
+  @media (max-width: 960px) {
+    .layout { grid-template-columns: 1fr; }
+    aside { position: static; grid-template-columns: 1fr 1fr; }
+    aside .faq { grid-column: 1 / -1; }
   }
-  @media (max-width: 560px) {
-    nav a:not(.gh) { display: none; }
-    .toolbar { grid-template-columns: 1fr; }
-    .jobs-grid { grid-template-columns: 1fr; }
-    .reset { margin-left: 0; }
+  @media (max-width: 640px) {
+    nav a:not(.btn-sm) { display: none; }
+    .row { grid-template-columns: 1fr; gap: .4rem; }
+    .row-date { text-align: left; }
+    .row-date b { display: inline; margin-right: .4rem; }
+    .row-tags { justify-content: flex-start; max-width: none; }
+    aside { grid-template-columns: 1fr; }
+    .field { max-width: none; flex: 1 1 140px; }
   }
-  @media (prefers-reduced-motion: reduce) {
-    * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
-  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 </style>
 </head>
 <body>
@@ -174,70 +162,109 @@
     </a>
     <nav aria-label="主导航">
       <a href="#jobs">职位</a>
-      <a href="#companies">公司</a>
+      <a href="categories/ai.html">AI 专题</a>
       <a href="rss.xml">RSS</a>
-      <a class="gh" href="https://github.com/ceecee1234/openjobs" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="btn-sm" href="https://github.com/ceecee1234/openjobs/issues/new?template=job_submission.md" target="_blank" rel="noopener noreferrer">投稿职位</a>
     </nav>
   </div>
 </header>
 
-<section class="hero container">
-  <h1>发现全球最佳 AI 远程工作</h1>
-  <p>来自顶级科技公司的精选远程职位，按公司、地点和方向快速筛选，每日自动更新。</p>
-  <div class="stats" aria-live="polite">
-    <div><div class="stat-number" id="stat-jobs">–</div><div class="stat-label">职位</div></div>
-    <div><div class="stat-number" id="stat-companies">–</div><div class="stat-label">公司</div></div>
-    <div><div class="stat-number" id="stat-locations">–</div><div class="stat-label">地点</div></div>
+<section class="hero">
+  <div class="container">
+    <h1>每日精选的 AI 远程职位</h1>
+    <p>来自知名科技公司的远程机会，按方向、公司和地点快速筛选，直达原始招聘页面。</p>
+
+    <form class="hero-search" id="search-form" role="search" onsubmit="return false">
+      <label class="sr-only" for="search-input">搜索职位或公司</label>
+      <input type="search" id="search-input" placeholder="搜索职位、公司或地点，例如 Python、Stripe、Remote" autocomplete="off">
+      <button type="button" id="search-btn">搜索</button>
+    </form>
+
+    <div class="hot" id="hot-tags" role="group" aria-label="职位方向"></div>
+    <p class="stats-line" aria-live="polite">
+      已收录 <b id="stat-jobs">–</b> 个职位 · <b id="stat-companies">–</b> 家公司 · <b id="stat-locations">–</b> 个地点
+    </p>
   </div>
 </section>
 
-<section class="container" aria-label="筛选">
-  <form class="toolbar" id="toolbar" role="search" onsubmit="return false">
-    <div class="search">
-      <label class="sr-only" for="search-input">搜索职位或公司</label>
-      <input class="field" type="search" id="search-input" placeholder="搜索职位、公司，例如 “Python” 或 “Stripe”" autocomplete="off">
-    </div>
-    <div>
+<div class="container layout" id="jobs">
+  <section class="panel" aria-labelledby="list-title">
+    <div class="toolbar">
+      <h2 id="list-title">最新职位</h2>
+      <span class="count" id="result-count" aria-live="polite"></span>
       <label class="sr-only" for="company-filter">按公司筛选</label>
       <select class="field" id="company-filter"><option value="">所有公司</option></select>
-    </div>
-    <div>
       <label class="sr-only" for="location-filter">按地点筛选</label>
       <select class="field" id="location-filter"><option value="">所有地点</option></select>
-    </div>
-    <div>
       <label class="sr-only" for="sort-select">排序</label>
       <select class="field" id="sort-select">
-        <option value="company">按公司 A-Z</option>
-        <option value="title">按职位 A-Z</option>
-        <option value="location">按地点 A-Z</option>
+        <option value="latest">最近收录</option>
+        <option value="company">公司 A-Z</option>
+        <option value="title">职位 A-Z</option>
       </select>
+      <button class="reset" id="reset-btn" type="button" hidden>清除筛选</button>
     </div>
-    <div class="chips" id="category-chips" role="group" aria-label="职位方向"></div>
-  </form>
-</section>
 
-<main id="jobs" class="container">
-  <div class="results-head">
-    <h2>热门职位</h2>
-    <span class="results-count" id="results-count" aria-live="polite"></span>
-  </div>
-  <div class="jobs-grid" id="jobs-grid">
-    <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
-  </div>
-  <div class="more" id="more-wrap" hidden>
-    <button class="btn" id="more-btn" type="button">加载更多</button>
-  </div>
-</main>
+    <ul class="rows" id="job-list"></ul>
+    <div class="more" id="more-wrap" hidden>
+      <button class="btn" id="more-btn" type="button">加载更多</button>
+    </div>
+  </section>
 
-<section class="container companies" id="companies" aria-labelledby="companies-title">
-  <h2 id="companies-title">合作公司</h2>
-  <div class="companies-grid" id="companies-grid"></div>
-</section>
+  <aside>
+    <div class="panel box submit">
+      <h3>📮 你知道好的远程职位吗？</h3>
+      <p>欢迎投稿远程岗位，我们会人工核实后收录。提交信息只需要几分钟。</p>
+      <a class="btn" href="https://github.com/ceecee1234/openjobs/issues/new?template=job_submission.md" target="_blank" rel="noopener noreferrer">投稿职位</a>
+    </div>
+
+    <div class="panel box">
+      <h3>🏢 热门公司</h3>
+      <ul class="co-list" id="company-list"></ul>
+    </div>
+
+    <div class="panel box">
+      <h3>关于本站</h3>
+      <ul>
+        <li>职位来自公开招聘信息，由自动化脚本收集，并经人工筛选后收录。</li>
+        <li>同一职位的重复发布会被合并，过期内容会被清理。</li>
+        <li>职位信息可能有遗漏或变化，投递前请以原始发布为准。</li>
+      </ul>
+      <div class="links" style="margin-top:.8rem">
+        <a href="rss.xml">订阅 RSS</a>
+        <a href="categories/ai.html">AI 专题</a>
+        <a href="categories/developer.html">开发者专题</a>
+      </div>
+    </div>
+
+    <div class="panel box faq">
+      <h3>常见问题</h3>
+      <details>
+        <summary>职位从哪里来？</summary>
+        <p>来自公开的招聘页面与社区投稿。每条职位都会附上原始链接，方便你直接访问原文。</p>
+      </details>
+      <details>
+        <summary>为什么有些职位没有薪资？</summary>
+        <p>薪资只在原始发布中明确给出时才会展示，我们不会估算或补充。</p>
+      </details>
+      <details>
+        <summary>怎样提交职位？</summary>
+        <p>点击上方“投稿职位”，在 GitHub 上提交一个模板 Issue 即可。请确保职位真实、合规，并附上原始链接。</p>
+      </details>
+      <details>
+        <summary>如何筛选？</summary>
+        <p>可以用顶部的方向标签、搜索框，或右上角的公司与地点下拉菜单组合筛选。筛选条件会保存在网址中，便于分享。</p>
+      </details>
+    </div>
+  </aside>
+</div>
 
 <footer>
   <div class="container footer-inner">
-    <span>© <span id="year"></span> OpenJobs · 用 ❤️ 为远程工作者打造 · 职位信息请以公司官网为准</span>
+    <div>
+      <span>© <span id="year"></span> OpenJobs · 为远程工作者而建</span>
+      <p class="disclaimer">职位信息收集自网络，仅供参考，是否真实、是否适合你请自行判断。</p>
+    </div>
     <span>
       <a href="rss.xml">RSS</a>
       <a href="https://github.com/ceecee1234/openjobs" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -251,67 +278,59 @@
 
   const DATA_URL = 'jobs.json';
   const STATS_URL = 'stats.json';
-  const PAGE_SIZE = 24;
-  const CATEGORIES = ['全部', 'AI', 'Developer', 'DevOps', 'SEO', 'Other'];
-  const CATEGORY_LABELS = { 'AI': 'AI 相关', 'Developer': '开发者', 'DevOps': 'DevOps', 'SEO': 'SEO / 营销', 'Other': '其他' };
-  // Keep in sync with CATEGORY_RULES in scripts/build_site.py.
-  const CATEGORY_RULES = [
-    ['AI', /\b(ai|ml|machine learning|data scientist|llm)\b/i],
-    ['DevOps', /\b(devops|sre|infrastructure|platform)\b/i],
-    ['SEO', /\b(seo|marketing|content)\b/i],
-    ['Developer', /\b(frontend|backend|fullstack|full stack|python|software|engineer|developer)\b/i],
+  const PAGE_SIZE = 30;
+  // Keep in sync with CATEGORIES in scripts/build_site.py.
+  const CATEGORIES = [
+    { key: 'AI', label: 'AI 相关', re: /\b(ai|ml|machine learning|data scientist|llm)\b/i },
+    { key: 'DevOps', label: 'DevOps', re: /\b(devops|sre|infrastructure|platform)\b/i },
+    { key: 'SEO', label: 'SEO / 营销', re: /\b(seo|marketing|content)\b/i },
+    { key: 'Developer', label: '开发者', re: /\b(frontend|backend|fullstack|full stack|python|software|engineer|developer)\b/i },
   ];
-  const PALETTE = ['#6366f1', '#8b5cf6', '#ec4899', '#0ea5e9', '#f59e0b', '#22c55e', '#f97316', '#14b8a6'];
+  const LABEL = Object.fromEntries([...CATEGORIES.map(c => [c.key, c.label]), ['Other', '其他']]);
 
   const $ = (id) => document.getElementById(id);
   const els = {
     search: $('search-input'), company: $('company-filter'), location: $('location-filter'),
-    sort: $('sort-select'), chips: $('category-chips'), grid: $('jobs-grid'),
-    count: $('results-count'), moreWrap: $('more-wrap'), moreBtn: $('more-btn'),
-    companies: $('companies-grid'),
+    sort: $('sort-select'), list: $('job-list'), count: $('result-count'),
+    moreWrap: $('more-wrap'), moreBtn: $('more-btn'), reset: $('reset-btn'),
+    hot: $('hot-tags'), companyList: $('company-list'),
   };
+  const state = { jobs: [], category: '全部', page: 1, wantCompany: '', wantLocation: '' };
 
-  const state = { jobs: [], category: '全部', page: 1 };
-
-  // ---------- helpers ----------
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const categoryOf = (title) => {
-    for (const [name, re] of CATEGORY_RULES) if (re.test(title)) return name;
-    return 'Other';
-  };
-  const colorOf = (name) => {
-    let h = 0;
-    for (const ch of name) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-    return PALETTE[h % PALETTE.length];
-  };
-  const initial = (name) => esc(Array.from(name.trim())[0] || '?').toUpperCase();
-  const safeHref = (url) => {
-    try {
-      const u = new URL(url, location.href);
-      return ['http:', 'https:'].includes(u.protocol) || u.pathname.endsWith('.html') ? esc(url) : '#';
-    } catch { return '#'; }
-  };
+  const categoryOf = (title) => { for (const c of CATEGORIES) if (c.re.test(title)) return c.key; return 'Other'; };
   const isExternal = (url) => /^https?:\/\//i.test(url);
+  const safeHref = (url) => {
+    if (isExternal(url)) return esc(url);
+    if (/^[a-z]+:/i.test(url)) return '#';            // blocks javascript:, data:, …
+    return esc(url);
+  };
+  const shortDate = (iso) => {
+    if (!iso) return '';
+    const d = new Date(iso + 'T00:00:00');
+    return isNaN(d) ? '' : `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  };
+  const byLabel = (key) => (a, b) => a[key].localeCompare(b[key], 'zh-CN');
   const uniqueSorted = (arr) => [...new Set(arr)].sort((a, b) => a.localeCompare(b, 'zh-CN'));
 
   // ---------- URL state ----------
   function readUrl() {
     const p = new URLSearchParams(location.search);
     els.search.value = p.get('q') || '';
-    state.category = CATEGORIES.includes(p.get('cat')) ? p.get('cat') : '全部';
-    const sort = p.get('sort');
-    if (['company', 'title', 'location'].includes(sort)) els.sort.value = sort;
-    // company/location selects are populated later, so keep the wanted value.
+    const cat = p.get('cat');
+    state.category = cat && (LABEL[cat] || cat === '全部') ? (cat === 'all' ? '全部' : cat) : '全部';
+    if (['latest', 'company', 'title'].includes(p.get('sort'))) els.sort.value = p.get('sort');
     state.wantCompany = p.get('company') || '';
     state.wantLocation = p.get('location') || '';
   }
   function writeUrl() {
     const p = new URLSearchParams();
-    if (els.search.value.trim()) p.set('q', els.search.value.trim());
+    const q = els.search.value.trim();
+    if (q) p.set('q', q);
+    if (state.category !== '全部') p.set('cat', state.category);
     if (els.company.value) p.set('company', els.company.value);
     if (els.location.value) p.set('location', els.location.value);
-    if (state.category !== '全部') p.set('cat', state.category);
-    if (els.sort.value !== 'company') p.set('sort', els.sort.value);
+    if (els.sort.value !== 'latest') p.set('sort', els.sort.value);
     const qs = p.toString();
     history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
   }
@@ -321,54 +340,52 @@
     const q = els.search.value.trim().toLowerCase();
     const company = els.company.value;
     const location = els.location.value;
-    const cat = state.category;
-    const key = { company: 'company', title: 'title', location: 'location' }[els.sort.value] || 'company';
+    let list = state.jobs.filter((j) =>
+      (!q || j.title.toLowerCase().includes(q) || j.company.toLowerCase().includes(q) || j.location.toLowerCase().includes(q) || (j.salary || '').toLowerCase().includes(q)) &&
+      (!company || j.company === company) &&
+      (!location || j.location === location) &&
+      (state.category === '全部' || j.category === state.category));
 
-    return state.jobs
-      .filter((j) => (!q || j.title.toLowerCase().includes(q) || j.company.toLowerCase().includes(q) || j.location.toLowerCase().includes(q)))
-      .filter((j) => !company || j.company === company)
-      .filter((j) => !location || j.location === location)
-      .filter((j) => cat === '全部' || j.category === cat)
-      .sort((a, b) => a[key].localeCompare(b[key], 'zh-CN') || a.title.localeCompare(b.title, 'zh-CN'));
+    if (els.sort.value === 'company') list.sort((a, b) => byLabel('company')(a, b) || byLabel('title')(a, b));
+    else if (els.sort.value === 'title') list.sort(byLabel('title'));
+    else list = list.sort((a, b) => (b.added_at || '').localeCompare(a.added_at || '') || byLabel('company')(a, b));
+    return list;
   }
 
   // ---------- rendering ----------
-  function jobCard(j) {
+  function rowHtml(j) {
     const href = safeHref(j.url);
-    const target = isExternal(j.url) ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const ext = isExternal(j.url) ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const date = shortDate(j.added_at);
+    const dateHtml = date ? `<b>${date}</b>` : '<b>·</b>';
     return `
-      <a class="job-card" href="${href}"${target}>
-        <div class="job-top">
-          <div class="avatar" style="background:${colorOf(j.company)}" aria-hidden="true">${initial(j.company)}</div>
-          <div style="min-width:0">
-            <div class="job-title">${esc(j.title)}</div>
-            <div class="job-company">${esc(j.company)}</div>
-          </div>
+      <li><a class="row" href="${href}"${ext}>
+        <div class="row-date">${dateHtml}</div>
+        <div style="min-width:0">
+          <div class="row-title">${esc(j.title)}</div>
+          <div class="row-sub">${esc(j.company)}${j.industry ? ' · ' + esc(j.industry) : ''}</div>
         </div>
-        <div class="job-tags">
-          <span class="tag">${esc(CATEGORY_LABELS[j.category] || j.category)}</span>
+        <div class="row-tags">
+          ${j.salary ? `<span class="tag salary">${esc(j.salary)}</span>` : ''}
+          <span class="tag">${esc(LABEL[j.category])}</span>
           <span class="tag loc">📍 ${esc(j.location)}</span>
         </div>
-        <div class="job-foot">
-          <span>查看详情</span>
-          <span class="job-cta">申请 →</span>
-        </div>
-      </a>`;
+      </a></li>`;
   }
 
-  function renderChips() {
-    const counts = Object.fromEntries(CATEGORIES.map((c) => [c, 0]));
-    state.jobs.forEach((j) => { counts['全部']++; counts[j.category] = (counts[j.category] || 0) + 1; });
-    els.chips.innerHTML = CATEGORIES
-      .filter((c) => c === '全部' || counts[c] > 0)
-      .map((c) => `<button type="button" class="chip" data-cat="${esc(c)}" aria-pressed="${c === state.category}">${esc(CATEGORY_LABELS[c] || c)}<span class="count">${counts[c]}</span></button>`)
-      .join('') + `<button type="button" class="reset" id="reset-btn">清除筛选</button>`;
+  function renderHot() {
+    const counts = { '全部': state.jobs.length };
+    state.jobs.forEach((j) => { counts[j.category] = (counts[j.category] || 0) + 1; });
+    const options = ['全部', ...CATEGORIES.map((c) => c.key)].filter((k) => k === '全部' || counts[k]);
+    els.hot.innerHTML = '<span class="hot-label">热门方向</span>' + options.map((k) => {
+      const label = k === '全部' ? '全部' : LABEL[k];
+      return `<button type="button" class="chip" data-cat="${esc(k)}" aria-pressed="${k === state.category}">${esc(label)}<span class="n">${counts[k] || 0}</span></button>`;
+    }).join('');
   }
 
   function renderSelects() {
     const fill = (sel, label, values, keep) => {
-      sel.innerHTML = `<option value="">${label}</option>` +
-        values.map((v) => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
+      sel.innerHTML = `<option value="">${label}</option>` + values.map((v) => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
       if (keep && values.includes(keep)) sel.value = keep;
     };
     fill(els.company, '所有公司', uniqueSorted(state.jobs.map((j) => j.company)), state.wantCompany);
@@ -378,16 +395,11 @@
   function renderCompanies() {
     const counts = {};
     state.jobs.forEach((j) => { counts[j.company] = (counts[j.company] || 0) + 1; });
-    els.companies.innerHTML = Object.entries(counts)
+    els.companyList.innerHTML = Object.entries(counts)
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh-CN'))
-      .map(([name, n]) => `
-        <button type="button" class="company-card" data-company="${esc(name)}">
-          <span class="avatar" style="background:${colorOf(name)}" aria-hidden="true">${initial(name)}</span>
-          <span style="min-width:0">
-            <span class="company-name" style="display:block">${esc(name)}</span>
-            <span class="company-meta">${n} 个职位</span>
-          </span>
-        </button>`).join('');
+      .slice(0, 12)
+      .map(([name, n]) => `<li><button type="button" data-company="${esc(name)}"><span>${esc(name)}</span><span class="n">${n}</span></button></li>`)
+      .join('');
   }
 
   function render({ reset = true } = {}) {
@@ -396,53 +408,46 @@
     const shown = list.slice(0, state.page * PAGE_SIZE);
 
     els.count.textContent = list.length ? `共 ${list.length} 个职位` : '';
-    if (!list.length) {
-      els.grid.innerHTML = `
-        <div class="state">
-          <div class="icon">🔍</div>
-          <p>没有找到匹配的职位</p>
-          <button class="btn" type="button" data-action="reset">清除筛选</button>
-        </div>`;
-    } else {
-      els.grid.innerHTML = shown.map(jobCard).join('');
-    }
+    els.list.innerHTML = list.length
+      ? shown.map(rowHtml).join('')
+      : `<li class="empty"><p>没有找到匹配的职位</p><button class="btn" type="button" data-action="reset">清除筛选</button></li>`;
     els.moreWrap.hidden = shown.length >= list.length;
-    renderChips();
-    writeUrl();
-  }
+    els.reset.hidden = !(els.search.value || els.company.value || els.location.value || state.category !== '全部' || els.sort.value !== 'latest');
 
-  function showError(msg) {
-    els.grid.innerHTML = `<div class="state"><div class="icon">⚠️</div><p>${esc(msg)}</p></div>`;
-    els.count.textContent = '';
+    renderHot();
+    writeUrl();
   }
 
   function resetFilters() {
     els.search.value = '';
     els.company.value = '';
     els.location.value = '';
+    els.sort.value = 'latest';
     state.category = '全部';
     render();
   }
 
   // ---------- events ----------
-  let searchTimer;
-  els.search.addEventListener('input', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => render(), 120); });
+  let timer;
+  els.search.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => render(), 150); });
+  $('search-btn').addEventListener('click', () => render());
+  els.search.addEventListener('keydown', (e) => { if (e.key === 'Enter') render(); });
   els.company.addEventListener('change', () => render());
   els.location.addEventListener('change', () => render());
   els.sort.addEventListener('change', () => render());
+  els.reset.addEventListener('click', resetFilters);
   els.moreBtn.addEventListener('click', () => { state.page++; render({ reset: false }); });
-  els.chips.addEventListener('click', (e) => {
-    if (e.target.closest('#reset-btn')) return resetFilters();
+  els.hot.addEventListener('click', (e) => {
     const chip = e.target.closest('.chip');
     if (!chip) return;
     state.category = chip.dataset.cat;
     render();
   });
-  els.grid.addEventListener('click', (e) => { if (e.target.closest('[data-action="reset"]')) resetFilters(); });
-  els.companies.addEventListener('click', (e) => {
-    const card = e.target.closest('[data-company]');
-    if (!card) return;
-    els.company.value = card.dataset.company;
+  els.list.addEventListener('click', (e) => { if (e.target.closest('[data-action="reset"]')) resetFilters(); });
+  els.companyList.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-company]');
+    if (!btn) return;
+    els.company.value = btn.dataset.company;
     render();
     $('jobs').scrollIntoView({ behavior: 'smooth' });
   });
@@ -458,13 +463,6 @@
     $('year').textContent = new Date().getFullYear();
     readUrl();
 
-    // Stats come from the generated stats.json; fall back to counting jobs.
-    loadJson(STATS_URL).then((s) => {
-      $('stat-jobs').textContent = s.total_jobs;
-      $('stat-companies').textContent = s.total_companies;
-      $('stat-locations').textContent = s.total_locations;
-    }).catch(() => {});
-
     try {
       const raw = await loadJson(DATA_URL);
       if (!Array.isArray(raw)) throw new Error('职位数据格式错误');
@@ -473,19 +471,26 @@
         .map((j) => ({
           title: String(j.title), company: String(j.company),
           location: String(j.location || 'Remote'), url: String(j.url),
+          salary: j.salary ? String(j.salary) : '', industry: j.industry ? String(j.industry) : '',
+          added_at: j.added_at ? String(j.added_at) : '',
           category: categoryOf(String(j.title)),
         }));
     } catch (err) {
       console.error('加载失败:', err);
-      showError('加载职位数据失败，请稍后刷新页面。');
+      els.list.innerHTML = `<li class="empty"><p>职位数据加载失败，请稍后刷新页面。</p></li>`;
       return;
     }
 
-    if (!$('stat-jobs').textContent || $('stat-jobs').textContent === '–') {
-      $('stat-jobs').textContent = state.jobs.length;
-      $('stat-companies').textContent = new Set(state.jobs.map((j) => j.company)).size;
-      $('stat-locations').textContent = new Set(state.jobs.map((j) => j.location)).size;
-    }
+    const setStat = (id, v) => { $(id).textContent = v; };
+    setStat('stat-jobs', state.jobs.length);
+    setStat('stat-companies', new Set(state.jobs.map((j) => j.company)).size);
+    setStat('stat-locations', new Set(state.jobs.map((j) => j.location)).size);
+    // Prefer the generated stats (same numbers, but authoritative after a build).
+    loadJson(STATS_URL).then((s) => {
+      setStat('stat-jobs', s.total_jobs);
+      setStat('stat-companies', s.total_companies);
+      setStat('stat-locations', s.total_locations);
+    }).catch(() => {});
 
     renderSelects();
     renderCompanies();

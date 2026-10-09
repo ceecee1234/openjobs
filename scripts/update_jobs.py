@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -88,6 +89,10 @@ def main() -> int:
         # Nothing changed: skip the rebuild so generated files (which embed
         # timestamps) stay byte-identical and no empty commit is created.
         return 0
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    for job in new_jobs:
+        job.setdefault("added_at", today)
 
     combined = existing + new_jobs
     build_site.atomic_write(jobs_file, json.dumps(combined, ensure_ascii=False, indent=2) + "\n")

@@ -1,6 +1,6 @@
 # 🚀 AI Remote Jobs Daily
 
-Last Update: 2026-10-09 09:35:46 UTC
+Last Update: 2026-10-09 10:48:48 UTC
 
 Total: **48** jobs from **8** companies.
 
@@ -29,11 +29,13 @@ Total: **48** jobs from **8** companies.
 | Notion | [AI Engineer](public/jobs/notion-ai-engineer.html) | USA |
 | Notion | [Backend Developer](public/jobs/notion-backend-developer.html) | Europe |
 
+Browse everything on the website in [`public/`](public/), or subscribe via [RSS](public/rss.xml).
+
+## 📮 Submit a job
+
+Found a remote job we should list? [Open a submission issue](https://github.com/ceecee1234/openjobs/issues/new?template=job_submission.md).
+
 ---
-
-## 🌍 About
-
-This site updates remote jobs automatically with GitHub Actions. The web app lives in [`public/`](public/).
 
 ## 🛠 Development
 
